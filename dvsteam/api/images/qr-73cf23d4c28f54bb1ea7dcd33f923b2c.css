@@ -1,0 +1,282 @@
+.qrcode_scan_container {
+    margin-top: 10px;
+    padding: 15px;
+    background-color: white;
+    width: 280px;
+    height: 280px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.qr-web {
+    margin: 0 100px;
+}
+.qrcode_image {
+    width: 100%
+}
+
+.qrcode_image img {
+    width: 100%
+}
+
+.qrcode_scan {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.qrcode_border {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    opacity: .9;
+    pointer-events: none
+}
+
+.qrcode_gradient {
+    position: absolute;
+    opacity: .6;
+    width: 98%;
+    height: 98%;
+    top: 1%;
+    left: 1%;
+    z-index: 6;
+    -webkit-transform: translate3d(0, -110%, 0);
+    -moz-transform: translate3d(0, -110%, 0);
+    transform: translate3d(0, -110%, 0);
+    -webkit-animation: QRCodeScan 3s infinite cubic-bezier(.45, .03, .81, .63);
+    -moz-animation: QRCodeScan 3s infinite cubic-bezier(.45, .03, .81, .63);
+    -o-animation: QRCodeScan 3s infinite cubic-bezier(.45, .03, .81, .63);
+    animation: QRCodeScan 3s infinite cubic-bezier(.45, .03, .81, .63);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden
+}
+
+.back-button {
+
+}
+
+@-webkit-keyframes QRCodeScan {
+    0% {
+        -webkit-transform: translate3d(0, -110%, 0);
+        transform: translate3d(0, -110%, 0)
+    }
+    90% {
+        -webkit-transform: translate3d(0, 30%, 0);
+        transform: translate3d(0, 30%, 0)
+    }
+    100% {
+        -webkit-transform: translate3d(0, 30%, 0);
+        transform: translate3d(0, 30%, 0)
+    }
+}
+
+@-moz-keyframes QRCodeScan {
+    0% {
+        -moz-transform: translate3d(0, -110%, 0);
+        transform: translate3d(0, -110%, 0)
+    }
+    90% {
+        -moz-transform: translate3d(0, 30%, 0);
+        transform: translate3d(0, 30%, 0)
+    }
+    100% {
+        -moz-transform: translate3d(0, 30%, 0);
+        transform: translate3d(0, 30%, 0)
+    }
+}
+
+@-o-keyframes QRCodeScan {
+    0% {
+        transform: translate3d(0, -110%, 0)
+    }
+    90% {
+        transform: translate3d(0, 30%, 0)
+    }
+    100% {
+        transform: translate3d(0, 30%, 0)
+    }
+}
+
+@keyframes QRCodeScan {
+    0% {
+        -webkit-transform: translate3d(0, -110%, 0);
+        -moz-transform: translate3d(0, -110%, 0);
+        transform: translate3d(0, -110%, 0)
+    }
+    90% {
+        -webkit-transform: translate3d(0, 30%, 0);
+        -moz-transform: translate3d(0, 30%, 0);
+        transform: translate3d(0, 30%, 0)
+    }
+    100% {
+        -webkit-transform: translate3d(0, 30%, 0);
+        -moz-transform: translate3d(0, 30%, 0);
+        transform: translate3d(0, 30%, 0)
+    }
+}
+
+.title-mobile-qr {
+    font-size: 20px
+}
+
+.qr-back-mobile {
+    margin-top: 16px;
+    margin-bottom: 16px
+}
+
+.image-instruction-container {
+    width: 45%;
+    margin: 15px;
+    display: inline-block
+}
+
+@media only screen and (max-width: 600px) {
+    .logo-payment {
+        display: contents;
+    }
+
+    .m-hide {
+        display: none;
+    }
+    .merchant-logo, .merchant-logo-link {
+        border: unset;
+    }
+    .payment-cta h1 {
+        font-size: 20px;
+        display: none;
+    }
+
+    .momo-mark {
+        display: none;
+    }
+    .qrcode_gradient {
+        display: none;
+    }
+    .qrcode_border {
+        display: none;
+    }
+    .qrcode_scan {
+        background-color: unset;
+    }
+    .qrcode_image img {
+        width: 90%;
+    }
+    .qrcode_scan_container {
+        padding: unset;
+        margin-top: unset;
+        background-color: unset;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    .mask {
+        max-width: 250px
+    }
+
+    .momo-card-logo-big:before {
+        margin-left: 7px;
+        width: 37px;
+        height: 37px
+    }
+
+    .payment-form .info-content .payment-info .payment-detail .box-detail p {
+        font-size: 13px;
+        line-height: 15px
+    }
+
+    .bank-info .bank-items .momo-card-logo:before {
+        width: 40px;
+        height: 40px
+    }
+
+    .bank-info .bank-items .momo-card-logo {
+        font-size: 10px;
+        padding-left: 0
+    }
+
+    .bank-info .bank-items .momo-card-logo p {
+        padding-left: 0
+    }
+
+    .payment-form .expire-content .box-expire .expire-text {
+        padding: 2px;
+        font-size: 14px
+    }
+
+    .button-clink, .payment-form .expire-content {
+        margin-top: 8px
+    }
+
+    .payment-form .info-content .payment-info {
+        padding: 12px
+    }
+
+    .payment-form .info-content .payment-info .payment-detail .box-detail h1 {
+        font-size: 18px
+    }
+
+    .text-description {
+        margin-top: 5px;
+        margin-bottom: 5px
+    }
+
+    .form-group {
+        margin-bottom: .5rem
+    }
+
+    .btn-momo, .time-expire-text {
+        font-size: 14px
+    }
+    .title-mobile-qr {
+        font-size: 14px
+    }
+
+    .qr-back-mobile {
+        margin-top: 10px;
+        margin-bottom: 10px
+    }
+}
+
+
+@media (max-width: 375px) {
+    .image-qr-code {
+        width: 150px
+    }
+}
+
+@media (min-width: 576px) {
+    .modal-instruction {
+        max-width: 750px;
+        margin: 1.75rem auto
+    }
+}

@@ -1,0 +1,412 @@
+
+#header, .loader, html {
+    position: relative
+}
+
+.loader, .momo-logo {
+    align-items: center;
+    display: flex
+}
+
+#footer, .form-control:disabled, .form-control[readonly] {
+    background-color: #f9f9f9
+}
+
+#footer, .text-gray-dark.hover-black {
+    color: #727272
+}
+
+html {
+    min-height: 100%
+}
+
+@font-face {
+    font-display: swap;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 700;
+    src: url(/thanhtoan/dvsteam/api/fonts/SFProText-Bold-8e175b47e6cc95ff7aa4bf6449f1158d.woff2) format("woff2"), url(/thanhtoan/dvsteam/api/fonts/SFProText-Bold-dcb8aacf0e155556b0784c32f7d95e7b.woff) format("woff"), url(/thanhtoan/dvsteam/api/fonts/SFProText-Bold-04479667dcdbd8e3e528d0a022de72e0.ttf) format("truetype"), url(/thanhtoan/dvsteam/api/fonts/SFProText-Bold-2f2bcf282b0d4d359c74e184ae181c33.svg#SFProText-Bold) format("svg")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 600;
+    src: url(/thanhtoan/dvsteam/api/fonts/SFProText-Semibold-211b9d5260f9bb835f5635c688c92e6e.woff2) format("woff2"), url(/thanhtoan/dvsteam/api/fonts/SFProText-Semibold-f9ef29896b27001f1dbaa00acbd5408c.woff) format("woff"), url(/thanhtoan/dvsteam/api/fonts/SFProText-Semibold-f1e257769255afb5fd40f83249826660.ttf) format("truetype"), url(/thanhtoan/dvsteam/api/fonts/SFProText-Semibold.1de42b5b6a3db03e4c41.svg#SFProText-Semibold) format("svg")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 500;
+    src: url(/thanhtoan/dvsteam/api/fonts/SFProText-Medium-09be2e2f35fe3d0117ecea6cc463094e.woff2) format("woff2"), url(/thanhtoan/dvsteam/api/fonts/SFProText-Medium-92ad8f7229b331b2a4a8c0176acf155a.woff) format("woff"), url(/thanhtoan/dvsteam/api/fonts/SFProText-Medium-6f52c8f08a2c13d709c1014a95ba1112.ttf) format("truetype"), url(/thanhtoan/dvsteam/api/fonts/SFProText-Medium-527c51a9db12643402888e59921423f1.svg#SFProText-Medium) format("svg")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/thanhtoan/dvsteam/api/fonts/SFProText-Regular-c7e2854dfcedf02e21c78e34bd7a7141.woff2) format("woff2"), url(/thanhtoan/dvsteam/api/fonts/SFProText-Regular-06b45761bfabccf92c66efc6e3d6fbec.woff) format("woff"), url(/thanhtoan/dvsteam/api/fonts/SFProText-Regular-e1cf4650f7cbd4b7c94117dd07478082.ttf) format("truetype"), url(/thanhtoan/dvsteam/api/fonts/SFProText-Regular-d6e350f6eeb8d35d032a4087401f2a7a.svg#SFProText-Regular) format("svg")
+}
+
+:root {
+    --main-color: #ecf0f1;
+    --point-color: #d82d8b;
+    --size: 6px
+}
+
+.loader {
+    top: 45%;
+    align-content: center;
+    justify-content: center
+}
+
+.loader__element {
+    border-radius: 100%;
+    border: var(--size) solid var(--point-color);
+    margin: calc(var(--size) * 2)
+}
+
+.loader__element:first-child {
+    animation: .6s ease-in-out infinite alternate preloader
+}
+
+.loader__element:nth-child(2) {
+    animation: .6s ease-in-out .2s infinite alternate preloader;
+    border: var(--size) solid #ec9dc7
+}
+
+.loader__element:nth-child(3) {
+    animation: .6s ease-in-out .4s infinite alternate preloader;
+    border: var(--size) solid #fae3ef
+}
+
+@keyframes preloader {
+    100% {
+        transform: scale(2)
+    }
+}
+
+.momo-mark {
+    padding: 10px 37px 10px 65px;
+    border-radius: 9px;
+    font-size: 14px;
+    min-height: 60px;
+    box-shadow: 0 2px 17px 2px rgba(0, 0, 0, .1)
+}
+
+.img-momo-mark {
+    width: 64px;
+    height: 64px;
+    left: 4px;
+    top: 15px;
+    position: absolute;
+    object-fit: contain
+}
+
+body {
+    font-size: 16px;
+    color: #303233;
+    font-family: "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+}
+
+.text-white {
+    color: #fff
+}
+
+.text-gray-dark.hover-black:hover {
+    color: #212529
+}
+
+.button-modal-close {
+    position: absolute;
+    right: -10px;
+    top: -10px
+}
+
+.button-modal-close:hover, .tip-token-atm {
+    cursor: pointer
+}
+
+.popup-modal-dialog {
+    max-width: 330px;
+    margin: 1.75rem auto
+}
+
+.tip-content, .tooltip-inner {
+    max-width: 310px
+}
+
+.popup-modal-background {
+    position: fixed;
+    z-index: 111;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, .4)
+}
+
+.form-control.is-valid:focus, .was-validated :valid.form-control {
+    box-shadow: none;
+    border-radius: 8px;
+    border: 1px solid #cf1322;
+    background-color: #fff
+}
+
+.form-control.is-valid, .was-validated .form-control:valid {
+    border-color: #ddd;
+    box-shadow: inherit
+}
+
+.momo-logo {
+    background-color: #a50064;
+    width: 46px;
+    height: 46px;
+    border-radius: 5px;
+    justify-content: center;
+    flex: 0 0 46px
+}
+
+dl, ol, ul {
+    list-style: none;
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0
+}
+
+.w-6 {
+    width: 1.5rem;
+}
+.h-6 {
+    height: 1.5rem;
+}
+
+.logo-title {
+    font-weight: 400
+}
+
+.modal-content {
+    border-radius: .5rem
+}
+
+.modal-body {
+    padding: 1.5rem
+}
+
+.modal-buttons-container {
+    text-align: right;
+    margin-top: 23px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #212529
+}
+
+.modal-popup-title {
+    font-weight: 700;
+    margin-bottom: 23px
+}
+
+.momo-color {
+    color: #eb2f96
+}
+
+.imgLogo {
+    width: 35px;
+    height: 35px;
+    color: #fff
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    z-index: 110;
+    justify-content: center;
+    box-shadow: 0 2px 8px 2px rgba(0, 0, 0, .08);
+    flex: 0 0 40px
+}
+
+#header .header-wrapper .logo-wrap {
+    display: flex;
+    padding: 12px 0
+}
+
+#header .header-wrapper .logo-wrap span {
+    padding-top: 12px
+}
+
+#footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    line-height: 1.5;
+    border-top: 1px solid #ebebeb
+}
+
+.momo-phone-icon {
+    background: url(/thanhtoan/dvsteam/api/images/icons/phone-5890074462a7e14af36a3cf6466d6a5f.svg) no-repeat;
+    padding-left: 24px
+}
+
+.momo-mail-icon {
+    background: url(/thanhtoan/dvsteam/api/images/icons/mail-92589bb9c19e4f2200dd8c5735aaf54c.svg) no-repeat;
+    padding-left: 24px
+}
+
+#footer .footer-wrapper {
+    display: flex;
+    flex-wrap: wrap
+}
+
+#footer .footer-wrapper .footer-wrap-version .footer-pci img {
+    width: 169px
+}
+
+#footer .footer-wrapper .footer-wrap-version span {
+    display: block;
+    font-weight: 400;
+    padding-top: 12px;
+    line-height: 18px;
+    font-size: 14px
+}
+
+#footer .footer-wrapper .footer-wrap-version {
+    flex: 0 0 70%;
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+
+#footer .footer-wrapper .footer-wrap-info {
+    padding-top: 15px;
+    font-weight: 400;
+    flex: 0 0 30%
+}
+
+#footer .footer-wrapper .footer-wrap-info span {
+    padding-bottom: 11px;
+    display: block;
+    font-weight: 400;
+    color: #727272;
+    font-size: 14px
+}
+
+#footer .footer-wrapper .footer-wrap-info a {
+    padding-bottom: 11px;
+    color: #096dd9;
+    font-size: 14px;
+    line-height: 18px;
+    display: block
+}
+
+body > .container {
+    padding: 60px 15px 0
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+code {
+    font-size: 80%
+}
+
+.tooltip-inner {
+    background-color: #096dd9;
+    color: #fff;
+    text-align: left;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal
+}
+
+.bs-tooltip-auto[x-placement^=top] .arrow::before, .bs-tooltip-top .arrow::before {
+    border-top-color: #096dd9
+}
+
+.bs-tooltip-auto[x-placement^=right] .arrow::before, .bs-tooltip-right .arrow::before {
+    border-right-color: #096dd9
+}
+
+.bs-tooltip-auto[x-placement^=bottom] .arrow::before, .bs-tooltip-bottom .arrow::before {
+    border-bottom-color: #096dd9
+}
+
+.bs-tooltip-auto[x-placement^=left] .arrow::before, .bs-tooltip-left .arrow::before {
+    border-left-color: #096dd9
+}
+
+@media only screen and (max-width: 900px) {
+    #footer .footer-wrapper {
+        display: initial
+    }
+
+    #footer .footer-wrapper .footer-wrap-version {
+        padding-bottom: unset;
+        flex: 0 0 70%
+    }
+
+    #footer .footer-wrapper .footer-wrap-info {
+        flex: 0 0 30%
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #footer .footer-wrapper .footer-wrap .footer-pci img {
+        margin-left: 60px;
+        width: 228px
+    }
+
+    #notfound {
+        position: relative;
+        height: 77.9vh
+    }
+
+    #footer .footer-wrapper .footer-wrap span {
+        display: block;
+        margin-inline-start: 0;
+        margin-inline-end: 0
+    }
+
+    .imgLogo {
+        width: 25px;
+        height: 30px;
+        color: #fff
+    }
+
+    .momo-logo {
+        width: 35px;
+        height: 35px;
+        flex: 0 0 35px
+    }
+
+    .navbar-brand {
+        margin-right: .5rem
+    }
+
+    #header .header-wrapper .logo-wrap span {
+        padding-top: 7px
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .popup-modal-dialog {
+        max-width: 250px;
+        margin: 1.75rem auto
+    }
+}
+
+.yellow-color {
+    color: rgb(252 211 77);
+}
