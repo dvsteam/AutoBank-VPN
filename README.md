@@ -1,4 +1,4 @@
-# DVSTEAM.VN API
+# API DVSTEAM
 
 ## Giới thiệu
 
@@ -8,17 +8,24 @@ DVSTEAM.VN cung cấp các API mạnh mẽ để tích hợp các dịch vụ t�
 - [Đăng Ký API AutoCard](https://gachthedvs.net)
 - [Nhóm Zalo API Hỗ Trợ Trao Đổi](https://dvsteam.vn/zalo-hotro-api)
 
-## AutoBank & AutoCard Cho Web VPN
+Hiện tại code api này chỉ hỗ trợ các Source web VPN
+- [AikoPanel](https://aikopanel.edu.vn/vi/)
+- [V2board](https://v2board.com/)
+- [Xflash](https://dvsteam.vn/zalo-hotro-api)
+
+Và các web Source dựa theo lõi V2board mod ra
+- Các web dạng khác ko thuộc VPN cần đấu API vui lòng liên hệ riêng
+## AutoBank & AutoCard
 
 ### Mô tả
 
 API Autobank cho phép tự động hóa các giao dịch ngân hàng, bao gồm chuyển khoản và thanh toán hóa đơn. Nó được thiết kế để tối ưu hóa các quy trình tài chính và giảm thiểu thời gian xử lý.
 
-## `Demo` bot thông báo `Ngân Hàng`
+### `Demo` bot thông báo `Ngân Hàng`
 
 <img src="https://github.com/dvsteam/AutoBank-VPN/assets/91702958/c711102f-7387-4fd6-b73e-350533f9a245" width="30%">
 
-## `Demo` bot thông báo `Thẻ Cào`
+### `Demo` bot thông báo `Thẻ Cào`
 
 <img src="https://github.com/dvsteam/AutoBank-VPN/assets/91702958/fde6a41f-2955-4e57-94d5-36f632d7b4a1" width="30%">
 
