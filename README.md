@@ -14,7 +14,10 @@ Hiện tại code api này chỉ hỗ trợ các Source web VPN
 - [Xflash](https://dvsteam.vn/zalo-hotro-api)
 
 Và các web Source dựa theo lõi V2board mod ra
-- Các web dạng khác ko thuộc VPN cần đấu API vui lòng liên hệ riêng
+
+- [Demo trang thanh toán](https://dvsteam.net)
+
+Các web dạng khác ko thuộc VPN cần đấu API vui lòng liên hệ riêng
 ## AutoBank & AutoCard
 
 ### Mô tả
