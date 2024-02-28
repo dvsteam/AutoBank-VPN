@@ -103,8 +103,8 @@ Bạn dùng ngân hàng nào thì chọn tệp Cron để phù hợp với `ngâ
 * `DVS_AutoVCB.php` => Ngân Hàng VietcomBank
 * `DVS_AutoViettelPay.php` => Ví điện tử ViettelMoney
 ```
-php /www/wwwroot/dvsteam.net/public/AutoBank/Cron/DVS_AutoVCB.php
-sleep 30;php /www/wwwroot/dvsteam.net/public/AutoBank/Cron/DVS_AutoVCB.php
+php /www/wwwroot/dvsteam.net/public/thanhtoan/Cron/DVS_AutoVCB.php
+sleep 30;php /www/wwwroot/dvsteam.net/public/thanhtoan/Cron/DVS_AutoVCB.php
 ```
 * `Lưu ý:` Chạy Cron không vượt quá 30giây nếu vượt quá 30giây sẽ `khóa token` (ko trả lại tiền đâu nha 😎), cấu hình bên trên là đã setup sẵn cho bạn chạy 30giây rồi đó
 
