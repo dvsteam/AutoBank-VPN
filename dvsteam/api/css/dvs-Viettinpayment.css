@@ -379,7 +379,7 @@
 }
 
 .bank-info .loadMore a.showMore:after {
-    content: "Xem thÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âªm       ";
+    content: "Xem thÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âªm       ";
     white-space: pre;
     font-weight: 400;
     background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='iso-8859-1'%3F%3E%3C!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='284.929px' height='284.929px' fill='%231c7ed6' viewBox='0 0 284.929 284.929' style='enable-background:new 0 0 284.929 284.929;' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M282.082,76.511l-14.274-14.273c-1.902-1.906-4.093-2.856-6.57-2.856c-2.471,0-4.661,0.95-6.563,2.856L142.466,174.441 L30.262,62.241c-1.903-1.906-4.093-2.856-6.567-2.856c-2.475,0-4.665,0.95-6.567,2.856L2.856,76.515C0.95,78.417,0,80.607,0,83.082 c0,2.473,0.953,4.663,2.856,6.565l133.043,133.046c1.902,1.903,4.093,2.854,6.567,2.854s4.661-0.951,6.562-2.854L282.082,89.647 c1.902-1.903,2.847-4.093,2.847-6.565C284.929,80.607,283.984,78.417,282.082,76.511z'/%3E%3C/g%3E%3C/svg%3E%0A");
@@ -389,7 +389,7 @@
 }
 
 .bank-info .loadMore a.showMore.showLess::after {
-    content: "Thu gÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Ân       ";
+    content: "Thu gÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Ân       ";
     white-space: pre;
     background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='iso-8859-1'%3F%3E%3C!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='284.929px' height='284.929px' fill='%231c7ed6' viewBox='0 0 284.929 284.929' style='enable-background:new 0 0 284.929 284.929;' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M282.082,76.511l-14.274-14.273c-1.902-1.906-4.093-2.856-6.57-2.856c-2.471,0-4.661,0.95-6.563,2.856L142.466,174.441 L30.262,62.241c-1.903-1.906-4.093-2.856-6.567-2.856c-2.475,0-4.665,0.95-6.567,2.856L2.856,76.515C0.95,78.417,0,80.607,0,83.082 c0,2.473,0.953,4.663,2.856,6.565l133.043,133.046c1.902,1.903,4.093,2.854,6.567,2.854s4.661-0.951,6.562-2.854L282.082,89.647 c1.902-1.903,2.847-4.093,2.847-6.565C284.929,80.607,283.984,78.417,282.082,76.511z' transform='rotate(180 143.5 143.5)'/%3E%3C/g%3E%3C/svg%3E%0A")
 }
@@ -405,9 +405,9 @@
 
 .payment-form .info-content {
     margin-top: 10px;
-    background-image: linear-gradient(0deg, rgb(121, 220, 152) 5%, rgba(193, 255, 192, 0.4) 50%, rgb(34, 166, 85) 130%);
+    background-image: linear-gradient(0deg, #bef9ff 5%, #d6e3ff 50%, #00a7cd 100%) !important;
     border-radius: 1.199rem;
-    border: 1.5px solid #49c887;
+    border: 1.5px solid #01a7cd;
     box-shadow: 0 0px 8px 2px rgb(160 198 255);
 }
 
@@ -452,9 +452,9 @@
 }
 
 .payment-form .expire-content .box-expire {
-    background-image: linear-gradient(0deg, rgb(73, 200, 135) 5%, rgb(205, 255, 207) 50%, rgb(70, 198, 118) 130%);
+    background-image: linear-gradient(0deg, #66d7f1 5%, #b9d2f4 50%, #c5f2ff 100%) !important;
     border-radius: 0 0 1rem 1rem;
-    border-top: 1px solid rgb(73, 200, 135);
+    border-top: 1px solid #12acd1;
 }
 
 .payment-form .expire-content .box-expire .expire-text {

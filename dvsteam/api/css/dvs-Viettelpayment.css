@@ -10,15 +10,6 @@
     margin-bottom: 5px;
     color : #303233 !important;
 }
-.code{
-	font-weight: 700;
-	color: red;
-	font-size: 22px;
-}
-.code span{
-	color: #5d5b5b;
-	cursor: pointer;
-}
 
 .arrow {
     position: absolute;
@@ -26,8 +17,7 @@
     right: 60px;
 }
 
-.arrow::before,
-.arrow::after {
+.arrow::before, .arrow::after {
     position: relative;
     content: '';
     display: block;
@@ -46,6 +36,7 @@
     top: -2px;
     transform: rotate(-45deg);
 }
+
 .toggle-btn.active .arrow::before {
     transform: rotate(-45deg);
 }
@@ -60,6 +51,7 @@
     padding : 8px;
     font-size: 14px;
 }
+
 .bg-pink .icon {
     padding: .5em;
     display: inline-block;
@@ -105,7 +97,7 @@
 
 .payment-form .form-details .mcheckbox, .payment-form .info-content .payment-info .payment-detail .two-box {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
 }
@@ -205,7 +197,6 @@
     background-color: rgba(0, 0, 0, .4)
 }
 
-
 .modal-instruction-content {
     background-color: #fefefe;
     margin: auto;
@@ -223,6 +214,7 @@
     font-weight: 700;
     color: #797c80
 }
+
 .time-box {
     padding: 0.5rem!important;
     margin: 12px 7px 0 7px;
@@ -234,6 +226,7 @@
     font-size: 13px;
     font-weight: normal
 }
+
 .momo-message {
     background-color: #f0f5ff;
     display: flex;
@@ -251,8 +244,7 @@
     /* border: 1px solid #44ffe9; */
     display: block;
     border-radius: 10px;
-    zoom: 2;
-}
+    zoom: 2; }
 
 .merchant-logo-link {
     margin-left: auto;
@@ -261,10 +253,9 @@
 }
 
 .merchant-logo {
-    max-height: 40px;
-    margin-right: 10px;
-    margin-left: 0;
-    margin-bottom: 2px;
+    max-height: 50px;
+    margin-bottom: 5px;
+    background: white;
 }
 
 .bank-info-title {
@@ -388,7 +379,7 @@
 }
 
 .bank-info .loadMore a.showMore:after {
-    content: "Xem thÃƒÂªm       ";
+    content: "Xem thÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âªm       ";
     white-space: pre;
     font-weight: 400;
     background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='iso-8859-1'%3F%3E%3C!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='284.929px' height='284.929px' fill='%231c7ed6' viewBox='0 0 284.929 284.929' style='enable-background:new 0 0 284.929 284.929;' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M282.082,76.511l-14.274-14.273c-1.902-1.906-4.093-2.856-6.57-2.856c-2.471,0-4.661,0.95-6.563,2.856L142.466,174.441 L30.262,62.241c-1.903-1.906-4.093-2.856-6.567-2.856c-2.475,0-4.665,0.95-6.567,2.856L2.856,76.515C0.95,78.417,0,80.607,0,83.082 c0,2.473,0.953,4.663,2.856,6.565l133.043,133.046c1.902,1.903,4.093,2.854,6.567,2.854s4.661-0.951,6.562-2.854L282.082,89.647 c1.902-1.903,2.847-4.093,2.847-6.565C284.929,80.607,283.984,78.417,282.082,76.511z'/%3E%3C/g%3E%3C/svg%3E%0A");
@@ -398,7 +389,7 @@
 }
 
 .bank-info .loadMore a.showMore.showLess::after {
-    content: "Thu gÃ¡Â»Ân       ";
+    content: "Thu gÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Ân       ";
     white-space: pre;
     background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='iso-8859-1'%3F%3E%3C!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='284.929px' height='284.929px' fill='%231c7ed6' viewBox='0 0 284.929 284.929' style='enable-background:new 0 0 284.929 284.929;' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M282.082,76.511l-14.274-14.273c-1.902-1.906-4.093-2.856-6.57-2.856c-2.471,0-4.661,0.95-6.563,2.856L142.466,174.441 L30.262,62.241c-1.903-1.906-4.093-2.856-6.567-2.856c-2.475,0-4.665,0.95-6.567,2.856L2.856,76.515C0.95,78.417,0,80.607,0,83.082 c0,2.473,0.953,4.663,2.856,6.565l133.043,133.046c1.902,1.903,4.093,2.854,6.567,2.854s4.661-0.951,6.562-2.854L282.082,89.647 c1.902-1.903,2.847-4.093,2.847-6.565C284.929,80.607,283.984,78.417,282.082,76.511z' transform='rotate(180 143.5 143.5)'/%3E%3C/g%3E%3C/svg%3E%0A")
 }
@@ -413,11 +404,11 @@
 }
 
 .payment-form .info-content {
-    margin-top: 30px;
-    background-image: linear-gradient(0deg, #93b9fb 5%, #a8c7ff 50%, #76a6f6 100%) !important;
+    margin-top: 10px;
+    background-image: linear-gradient(0deg, #3ca6ff 5%, #f8eaff 50%, #2ba2ff 100%) !important;
     border-radius: 1.199rem;
-    border: 1.5px solid #76a3f1;
-    box-shadow: 0 0px 8px 2px rgb(160 198 255);
+    border: 1.5px solid #37a6ff;
+    box-shadow: 0 0px 8px 2px rgb(124 189 255);
 }
 
 .payment-form .expire-content {
@@ -461,9 +452,9 @@
 }
 
 .payment-form .expire-content .box-expire {
-    background-image: linear-gradient(0deg, #95bafc 5%, #d4e3ff 50%, #95bafc 100%) !important;
+    background-image: linear-gradient(0deg, #74bbff 5%, #faefff 50%, #74bbff 100%);
     border-radius: 0 0 1rem 1rem;
-    border-top: 1px solid #76a3f1;
+    border-top: 1px solid #12acd1;
 }
 
 .payment-form .expire-content .box-expire .expire-text {
@@ -525,7 +516,7 @@
 }
 
 .installment-package-detail.pay-now {
-    max-width:  50%;
+    max-width: 50%;
     overflow: hidden;
     text-overflow: ellipsis;
     vertical-align: middle;
@@ -556,7 +547,7 @@
 }
 
 .payment-form .info-content .payment-info .payment-detail .line-detail {
-    border-top: 1px solid #3f51b5bd;
+    border-top: 1px solid #2ca2ff;
     background-color: #ebebeb;
     /* margin-bottom: 5px; */
 }
@@ -690,7 +681,7 @@
     align-items: center
 }
 
-.payment-info-input:not(:first-child){
+.payment-info-input:not(:first-child) {
     margin-top: 1.5rem!important;
 }
 
@@ -739,7 +730,6 @@
     border-radius: 12px;
     width: 350px;
     padding: 10px;
-    box-shadow: 0 2px 16px 2px rgba(0, 0, 0, .1);
     background-color: #fff
 }
 
@@ -908,6 +898,7 @@ button:focus {
     0% {
         transform: rotate(0)
     }
+
     100% {
         transform: rotate(360deg)
     }
@@ -1179,7 +1170,6 @@ lottie-player {
 }
 
 @media only screen and (max-width: 1400px) and (min-width: 900px) {
-
     .payment-form .form-details {
         padding: 16px 52px 0;
         margin: 10px auto
@@ -1205,7 +1195,6 @@ lottie-player {
     .payment-form .form-details span, .payment-form .info-content .payment-info h1 {
         font-size: 17px
     }
-
 
     .payment-form .info-content .payment-info .payment-detail .box-detail p {
         font-size: 14px
@@ -1263,11 +1252,7 @@ lottie-player {
 
     .merchant-logo {
         display: block;
-        margin-right: 10px;
-        margin-left: 0;
-        zoom: 2;
-        width: 27%;
-        border-radius: 5px;
+        border-radius: 6px;
         box-shadow: 0 0px 5px 2px rgb(37 97 119 / 38%);
     }
 
@@ -1356,7 +1341,7 @@ lottie-player {
 
     .payment-form .info-content {
         margin-top: 10px;
-        background-image: linear-gradient(0deg, #93b9fb 5%, #a8c7ff 50%, #76a6f6 100%) !important;
+        background-image: linear-gradient(0deg, #79dc98 5%, #c1ffc066 50%, #22a655 130%);
     }
 
     .payment-form .info-content .payment-info .payment-detail .box-detail h4 {
@@ -1464,10 +1449,10 @@ lottie-player {
     .payment-form .bank {
         font-size: 1.2em
     }
+
     .payment-form-title {
         font-size: 18px;
     }
-
 
     .payment-form .products .item-name, .payment-form .products .price {
         font-size: 1em
@@ -1487,13 +1472,13 @@ lottie-player {
         max-width: 400px;
         margin: 1.75rem auto
     }
-
 }
 
 @media (max-width: 600px) and (max-height: 600px) {
     .image-qr-code {
         width: 300px
     }
+
     .payment-qr {
         padding: 10px 0 70px
     }
@@ -1508,20 +1493,22 @@ lottie-player {
         width: 200px
     }
 
-
-    .cta-app, .logo-title  {
+    .cta-app, .logo-title {
         font-size: 14px;
     }
 
     .logo-payment {
         display: contents;
     }
+
     .merchant-logo, .merchant-logo-link {
         border: unset;
     }
+
     #header .header-wrapper .logo-wrap {
         padding: 8px 0;
     }
+
     #momo-mark, .momo-mark {
         display: none
     }
@@ -1530,8 +1517,6 @@ lottie-player {
         font-size: 18px;
         display: none
     }
-
-
 
     .payment-qr {
         padding: 10px 0 70px
@@ -1550,8 +1535,6 @@ lottie-player {
     .payment-cta a {
         font-size: 14px
     }
-
-
 }
 
 @-moz-document url-prefix() {
@@ -1578,5 +1561,3 @@ lottie-player {
     display: flex;
     flex-direction: column;
 }
-
-

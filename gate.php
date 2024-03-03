@@ -11,3 +11,6 @@ if ($gate == "AutoACB_DVS") {
 if ($gate == "AutoCard_DVS") {
 	include('Views/data_CardDVS.php');
 }
+if ($gate == "AutoViettin_DVS") {
+	include('Views/Viettin_DVS.php');
+}

@@ -19,9 +19,9 @@
     text-align: center;
     margin-top: -15px;
     margin-bottom: 5px;
-    background-image: linear-gradient(0deg, rgb(218, 214, 123) 5%, rgb(255, 253, 198) 50%, rgb(205, 216, 99) 130%);
+    background-image: linear-gradient(0deg, #20b73b 5%, #9affbd 50%, #1fad39 100%);
     border-radius: 10px;
-    border: 1px solid #bdb328;
+    border: 1px solid #249139;
     padding: 5px;
     display: inline-block;
     box-shadow: 0 0px 8px 2px rgb(84 179 140);
@@ -77,7 +77,7 @@ html {
 
 .loader__element {
     border-radius: 100%;
-    border: var(--size) solid #13b855;
+    border: var(--size) solid #1878b6;
     margin: calc(var(--size) * 2)
 }
 
@@ -87,12 +87,12 @@ html {
 
 .loader__element:nth-child(2) {
     animation: .6s ease-in-out .2s infinite alternate preloader;
-    border: var(--size) solid #31c26b;
+    border: var(--size) solid #2681bc;
 }
 
 .loader__element:nth-child(3) {
     animation: .6s ease-in-out .4s infinite alternate preloader;
-    border: var(--size) solid #44c879;
+    border: var(--size) solid #338ac2;
 }
 
 @keyframes preloader {
@@ -138,19 +138,19 @@ img.merchant-logo2 {
 }
 
 .box-detail-dvs {
-    border: 1px solid #49c887;
+    border: 1px solid #01a7cd;
     padding: 5px 10px 10px;
     border-radius: 10px;
     text-align: center;
     margin: 10px 0 0;
-    background: #26a15ead;
+    background: #0965a163;
 }
 
 .text6 {
     font-size: 18px;
     font-weight: 600;
     text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, 1px 1px 1px #000;
-    color: #7fffad;
+    color: #73ffcd;
 }
 
 .col-lg-4.payment-form.dvs-display {
@@ -477,10 +477,10 @@ span.custom-dvs-logodie {
 #backButton {
     color: #e8e8e8;
     font-weight: 700;
-    background-image: linear-gradient(0deg, rgb(88, 206, 143) 5%, rgb(210, 255, 192) 50%, rgb(23, 197, 103) 130%);
+    background-image: linear-gradient(0deg, #10abd1 5%, #cbe9ff 50%, #19aed3 100%) !important;
     padding: 3px 10px 3px;
     border-radius: 1rem;
-    border: 1px solid #207a11;
+    border: 1px solid #01a7cd;
     color: #ab0d0d;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -519,9 +519,9 @@ span.custom-dvs-logodie {
 }
 
 .payment-form .payment-content {
-    background: url(../logo/qrcode-pattern.png) 10px 10px no-repeat, linear-gradient(0deg, rgb(16, 138, 77) 5%, rgba(84, 158, 55, 0.65) 50%, rgb(33, 156, 94) 70%);
+    background: url(../logo/qrcode-pattern.png) 10px 10px no-repeat, linear-gradient(0deg, #d31b4f, #04609b);
     padding-bottom: 5%;
-    border: 1px solid #00a569;
+    border: 1px solid #005891;
     box-shadow: 0 0px 8px 2px rgb(255 255 255);
 }
 
@@ -534,7 +534,7 @@ span.custom-dvs-logodie {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px dashed #49c887;
+    border: 2px dashed #01a7cd;
 }
 
 .code span {
@@ -547,12 +547,12 @@ span.custom-dvs-logodie {
     align-items: center;
     color: #ffffff;
     font-size: 14px;
-    border: 1px solid #49c887;
+    border: 1px solid #01a7cd;
     border-radius: 6px;
     padding: 5px;
     margin: 5px;
     font-weight: 600;
-    background: #219c5e;
+    background: #08a9cf;
     text-transform: uppercase;
     cursor: pointer;
     transition: all 0.5s cubic-bezier(1, 4.19, 0, 0.83);
@@ -589,7 +589,7 @@ span.custom-dvs-logodie {
 }
 
 .custom-div .highlight {
-    color: #14744d;
+    color: #25639f;
 }
 
 .copy-text i {
@@ -625,7 +625,7 @@ span.custom-dvs-logodie {
     margin: 12px 7px 0 7px;
     border-radius: 8px;
     background-color: #ffe7ba;
-    /* ChÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Ân mÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢t trong hai mÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â u nÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Ân */
+    /* ChÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Ân mÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢t trong hai mÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â u nÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Ân */
 }
 
 .payment-form .expire-content .box-expire {
@@ -633,12 +633,12 @@ span.custom-dvs-logodie {
 }
 
 .payment-form .expire-content .box-expire .expire-text {
-    color: rgb(45 128 10);
+    color: rgb(0 89 146);
 }
 
 .payment-form .expire-content .box-expire .time-box {
-    background-color: rgb(199, 255, 222);
-    border: 1px solid #43a06a;
+    background-color: #bbe7ff;
+    border: 1px solid #005992;
 }
 
 b {
@@ -679,11 +679,10 @@ i.fas.fa-clock.fa-clock {
 }
 
 .text4 {
-    color: #aeff51;
+    color: #015792;
     font-size: 1.1rem;
     white-space: nowrap;
     font-weight: 700;
-    text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, 1px 1px 1px #000;
 }
 
 .back-button {
@@ -704,7 +703,7 @@ i.fas.fa-clock.fa-clock {
 }
 
 .dvsbank1 {
-    color: #068344 !important;
+    color: #05639f !important;
     font-size: 20px;
     font-weight: 700;
     border: none;
@@ -728,7 +727,7 @@ i.fas.fa-clock.fa-clock {
 
 .swal2-show {
     border-radius: 1rem;
-    border: 2px solid #219c5e;
+    border: 2px solid #2693dd;
 }
 
 .button {
