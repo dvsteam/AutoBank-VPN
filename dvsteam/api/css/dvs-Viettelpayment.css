@@ -405,9 +405,9 @@
 
 .payment-form .info-content {
     margin-top: 10px;
-    background-image: linear-gradient(0deg, #3ca6ff 5%, #f8eaff 50%, #2ba2ff 100%) !important;
+    background-image: linear-gradient(0deg, #2b5cff 5%, #ede2ff 50%, #4a74ff 100%);
     border-radius: 1.199rem;
-    border: 1.5px solid #37a6ff;
+    border: 1.5px solid #4a74ff;
     box-shadow: 0 0px 8px 2px rgb(124 189 255);
 }
 
@@ -452,9 +452,9 @@
 }
 
 .payment-form .expire-content .box-expire {
-    background-image: linear-gradient(0deg, #74bbff 5%, #faefff 50%, #74bbff 100%);
+    background-image: linear-gradient(0deg, #738dff 5%, #ffddfeba 50%, #6987ff 100%);
     border-radius: 0 0 1rem 1rem;
-    border-top: 1px solid #12acd1;
+    border-top: 1px solid #4a74ff;
 }
 
 .payment-form .expire-content .box-expire .expire-text {
@@ -466,7 +466,7 @@
 }
 
 .time-expire-text, span {
-    font-size: 16px
+    font-size: 16px;
 }
 
 .payment-form .expire-content .box-expire .expire-text p {
@@ -547,9 +547,9 @@
 }
 
 .payment-form .info-content .payment-info .payment-detail .line-detail {
-    border-top: 1px solid #2ca2ff;
-    background-color: #ebebeb;
-    /* margin-bottom: 5px; */
+    border-top: 1px solid #4a74ff;
+    background-color: #4a74ff;
+    margin-bottom: 5px;
 }
 
 .payment-form .card-input label {
@@ -1341,7 +1341,7 @@ lottie-player {
 
     .payment-form .info-content {
         margin-top: 10px;
-        background-image: linear-gradient(0deg, #79dc98 5%, #c1ffc066 50%, #22a655 130%);
+        /* background-image: linear-gradient(0deg, #79dc98 5%, #c1ffc066 50%, #22a655 130%); */
     }
 
     .payment-form .info-content .payment-info .payment-detail .box-detail h4 {
@@ -1384,7 +1384,7 @@ lottie-player {
 
     .payment-form .info-content .payment-info {
         margin: 2px;
-        padding: 0 15px 10px;
+        padding: 0 10px 5px;
     }
 
     .payment-form .payment-content .box-expire .expire-text {
