@@ -4,6 +4,12 @@
 
 DVSTEAM.VN cung cấp các API mạnh mẽ để tích hợp các dịch vụ tài chính và thanh toán vào ứng dụng của bạn. Hai API chính được cung cấp là `AutoBank` và `AutoCard` dành cho các web VPN.
 
+Hiện Tại DVSTEAM Đang Hỗ Các Ngân Hàng
+- `VietcomBank`
+- `ACB Á Châu`
+- `MB Bank`
+- `ViettelMoney`
+- `VietinBank`
 - [Đăng Ký API AutoBank](https://dvsteam.vn)
 - [Đăng Ký API AutoCard](https://gachthedvs.net)
 - [Nhóm Zalo API Hỗ Trợ Trao Đổi](https://dvsteam.vn/zalo-hotro-api)
@@ -18,9 +24,10 @@ Và các web Source dựa theo lõi V2board mod ra
 - [Demo trang thanh toán](https://dvsteam.net)
 
 Các web dạng khác ko thuộc VPN cần đấu API vui lòng liên hệ riêng
-## AutoBank & AutoCard
-
-### Mô tả
+## Ưu điểm dành riêng VPN
+- Duyệt đơn hàng đã hủy (Khi người dùng lỡ chuyển tiền trễ, đúng nội dung đơn và số tiền là auto duyệt) đỡ phải ae check lại
+- Khi khách chuyển tiền nhầm hoặc thiếu, thì chỉ cần chuyển tiền thêm đếm khi đủ thì sẽ duyệt đơn hàng (miễn sao trong 1 nội dung của đơn đó là được, nếu chuyển tiền dư sẽ cộng lại web cho khách, công bằng không sót 1 đồng)
+### Mô tả & hướng dẫn
 
 API Autobank cho phép tự động hóa các giao dịch ngân hàng, bao gồm chuyển khoản và thanh toán hóa đơn. Nó được thiết kế để tối ưu hóa các quy trình tài chính và giảm thiểu thời gian xử lý.
 
@@ -32,7 +39,7 @@ API Autobank cho phép tự động hóa các giao dịch ngân hàng, bao gồm
 
 <img src="https://github.com/dvsteam/AutoBank-VPN/assets/91702958/fde6a41f-2955-4e57-94d5-36f632d7b4a1" width="30%">
 
-# Hướng dẫn sử dụng
+# Hướng dẫn tích hợp
 ### Bước 1: Tải tệp và giải nén
 Truy cập vào thư mục `public` giống như trong ảnh, và chọn `Remote download` 
 
