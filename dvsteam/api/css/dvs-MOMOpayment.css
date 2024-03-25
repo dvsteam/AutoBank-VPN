@@ -1,0 +1,1563 @@
+.payment-cta h1, .payment-form .card-input .note-form {
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal
+}
+
+.toggle-btn {
+    width: 300px;
+    text-decoration: none !important;
+    margin-bottom: 5px;
+    color : #303233 !important;
+}
+
+.arrow {
+    position: absolute;
+    padding-top: 18px;
+    right: 60px;
+}
+
+.arrow::before, .arrow::after {
+    position: relative;
+    content: '';
+    display: block;
+    width: 10px;
+    height: 2px;
+    background: #303233;
+    transition: 0.3s ease-in-out;
+}
+
+.arrow::before {
+    transform: rotate(45deg);
+}
+
+.arrow::after {
+    left: 6px;
+    top: -2px;
+    transform: rotate(-45deg);
+}
+
+.toggle-btn.active .arrow::before {
+    transform: rotate(-45deg);
+}
+
+.toggle-btn.active .arrow::after {
+    transform: rotate(45deg);
+}
+
+.bg-pink {
+    background-color : #fff0f6;
+    border-radius : 8px;
+    padding : 8px;
+    font-size: 14px;
+}
+
+.bg-pink .icon {
+    padding: .5em;
+    display: inline-block;
+}
+
+.btn-delete-card, .modal-content-data {
+    line-height: 22px
+}
+
+.item-info .loading, .spin .spinner::before {
+    transform: translate(-50%, -50%);
+    will-change: transform
+}
+
+#load {
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    margin: 50px 0;
+    z-index: 9999
+}
+
+#load span {
+    display: block;
+    top: 56%;
+    position: relative
+}
+
+#load svg {
+    display: block;
+    margin: auto;
+    width: 50% !important;
+    height: 50% !important
+}
+
+#qr-mobile-ui {
+    display: content;
+}
+
+#qr-web-ui {
+    align-items: flex-start;
+}
+
+.payment-form .form-details .mcheckbox, .payment-form .info-content .payment-info .payment-detail .two-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hover-momo-color:hover {
+    color: #eb2f96
+}
+
+.hover-none-decoration:hover {
+    text-decoration: none;
+    color: #212529
+}
+
+.logo-payment {
+    display: none;
+}
+
+.logo-payment img {
+    margin-bottom : 10px;
+}
+
+.font-size-24 {
+    font-size: 24px !important
+}
+
+.font-size-20 {
+    font-size: 20px !important
+}
+
+.card-access-box .card-name, .card-access-box .card-name-text-small, .font-size-14 {
+    font-size: 14px !important
+}
+
+.font-size-12 {
+    font-size: 12px !important
+}
+
+.font-weight-bold-600 {
+    font-weight: 600 !important
+}
+
+.font-weight-bold-600.dvs {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: -5px;
+}
+
+.text-center.my-3.font-size-14.font-weight-bold-600.dvs {
+}
+
+.blue-color {
+    color: #096dd9
+}
+
+.black12-color {
+    color: #727272
+}
+
+.text-description {
+    font-size: 14px;
+    color: #898989;
+    margin-top: 16px;
+    margin-bottom: 16px
+}
+
+.payment-container {
+    min-height: calc(100vh - var(--footer-header-height, 17vh));
+    background-image: url(../images/patterns-top-8798bded624d9753dfca0c384e7285d4.svg), url(../images/patterns-right-top-cd70568af30a75980ad270f2d05e936d.svg), url(../images/patterns-right-bottom-29112134a9e489e00a86fccbc9d673d6.svg), linear-gradient(to top, #fff, #fffbfe);
+    background-repeat: no-repeat, no-repeat, no-repeat, repeat-x;
+    background-position: left top, right top, right bottom
+}
+
+.icon-add, .momo-add-icon {
+    background: url(../images/icons/plus-circle-full-85d388d82c272e934c9acc0825401daf.png) center no-repeat
+}
+
+.momo-add-icon {
+    padding-left: 24px
+}
+
+.icon-add {
+    border: none
+}
+
+.bank-info .bank-items .momo-card-logo:after, .icon-delete {
+    display: none
+}
+
+.modal-background {
+    position: fixed;
+    z-index: 111;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, .4)
+}
+
+.modal-instruction-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%
+}
+
+.btn-confirm-modal {
+    font-weight: 700;
+    color: #c1177c
+}
+
+.btn-cancel {
+    font-weight: 700;
+    color: #797c80
+}
+
+.time-box {
+    padding: 0.5rem!important;
+    margin: 12px 7px 0 7px;
+    border-radius: 8px;
+    background-color: #ffe7ba
+}
+
+.time-box p {
+    font-size: 13px;
+    font-weight: normal
+}
+
+.momo-message {
+    background-color: #f0f5ff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #727272;
+    font-size: 10px;
+    padding: 8px;
+    letter-spacing: 0;
+    border-radius: 8px
+}
+
+.merchant-logo, .merchant-logo-link {
+    /* border: 1px solid #44ffe9; */
+    display: block;
+    border-radius: 10px;
+    zoom: 2; }
+
+.merchant-logo-link {
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 45px
+}
+
+.merchant-logo {
+    max-height: 50px;
+    margin-bottom: 5px;
+    background: white;
+}
+
+.bank-info-title {
+    padding-bottom: 17px
+}
+
+.bank-info-title a {
+    font-size: 14px;
+    line-height: 18px;
+    color: #727272
+}
+
+.card-access-box {
+    padding-bottom: 20px
+}
+
+.card-access-box .card-number {
+    font-size: 14px !important;
+    color: #727272
+}
+
+.mask {
+    width: 100%;
+    height: 88px;
+    border-radius: 8px;
+    border: 1px solid #e8e8e8;
+    background-color: #fff;
+    margin-left: 24px
+}
+
+.mask .momo-card-logo:after {
+    font-size: 14px !important;
+    color: #727272;
+    position: inherit;
+    font-weight: 400;
+    left: 76%;
+    top: 97%
+}
+
+.button-clink {
+    margin-top: 16px
+}
+
+.btn-delete-card {
+    border-radius: 8px;
+    background-color: #fff;
+    border-color: #e8e8e8;
+    color: #303233;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 8px 0 3px;
+    width: 106px;
+    height: 36px;
+    display: inline
+}
+
+.btn-delete-card-icon {
+    background: url(../images/icons/delete-f9fba8147b076f5c8f7b41ba55ad632a.svg) center no-repeat;
+    padding-left: 30px
+}
+
+.btn-delete-card:hover {
+    background-color: #e8e8e8
+}
+
+.add-mask {
+    width: 90%;
+    height: 82px;
+    border-radius: 8px;
+    border: 1px dashed #e8e8e8;
+    background-color: #fff
+}
+
+.entry, .receipt {
+    border-bottom: 1px solid #9d1d63;
+    height: 15%
+}
+
+.bank-info .bank-items .momo-card-logo {
+    height: 36px;
+    margin-bottom: 50px;
+    flex: 0 0 12.5%;
+    max-width: 12.5%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 12px;
+    line-height: 100px;
+    text-align: center;
+    color: #303233
+}
+
+.bank-info .bank-items .momo-card-logo p {
+    width: 100px;
+    font-weight: 400
+}
+
+.bank-info .bank-items .momo-card-logo:before {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    margin-left: -2px
+}
+
+.bank-info .loadMore {
+    text-align: center;
+    margin-top: -10px;
+    padding-left: 40px;
+    padding-bottom: 32px
+}
+
+.bank-info .loadMore a.showMore {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-top: 20px;
+    color: #1c7ed6;
+    text-decoration: none
+}
+
+.bank-info .loadMore a.showMore:after {
+    content: "Xem thÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âªm       ";
+    white-space: pre;
+    font-weight: 400;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='iso-8859-1'%3F%3E%3C!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='284.929px' height='284.929px' fill='%231c7ed6' viewBox='0 0 284.929 284.929' style='enable-background:new 0 0 284.929 284.929;' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M282.082,76.511l-14.274-14.273c-1.902-1.906-4.093-2.856-6.57-2.856c-2.471,0-4.661,0.95-6.563,2.856L142.466,174.441 L30.262,62.241c-1.903-1.906-4.093-2.856-6.567-2.856c-2.475,0-4.665,0.95-6.567,2.856L2.856,76.515C0.95,78.417,0,80.607,0,83.082 c0,2.473,0.953,4.663,2.856,6.565l133.043,133.046c1.902,1.903,4.093,2.854,6.567,2.854s4.661-0.951,6.562-2.854L282.082,89.647 c1.902-1.903,2.847-4.093,2.847-6.565C284.929,80.607,283.984,78.417,282.082,76.511z'/%3E%3C/g%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-position: right calc(.375em + .1875rem) center;
+    background-size: calc(.3em + .25rem) calc(.3em + .25rem)
+}
+
+.bank-info .loadMore a.showMore.showLess::after {
+    content: "Thu gÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Ân       ";
+    white-space: pre;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='iso-8859-1'%3F%3E%3C!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='284.929px' height='284.929px' fill='%231c7ed6' viewBox='0 0 284.929 284.929' style='enable-background:new 0 0 284.929 284.929;' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M282.082,76.511l-14.274-14.273c-1.902-1.906-4.093-2.856-6.57-2.856c-2.471,0-4.661,0.95-6.563,2.856L142.466,174.441 L30.262,62.241c-1.903-1.906-4.093-2.856-6.567-2.856c-2.475,0-4.665,0.95-6.567,2.856L2.856,76.515C0.95,78.417,0,80.607,0,83.082 c0,2.473,0.953,4.663,2.856,6.565l133.043,133.046c1.902,1.903,4.093,2.854,6.567,2.854s4.661-0.951,6.562-2.854L282.082,89.647 c1.902-1.903,2.847-4.093,2.847-6.565C284.929,80.607,283.984,78.417,282.082,76.511z' transform='rotate(180 143.5 143.5)'/%3E%3C/g%3E%3C/svg%3E%0A")
+}
+
+.payment-form .payment-content {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding : 12px 15px;
+    border-radius: 1.1rem;
+    box-shadow: 0 2px 8px 2px rgba(0, 0, 0, .08);
+    background-color: #fff
+}
+
+.payment-form .info-content {
+    margin-top: 10px;
+    background-image: linear-gradient(0deg, #f784c4 5%, #f8eaff 50%, #ff6cd9 100%) !important;
+    border-radius: 1.199rem;
+    border: 1.5px solid #fd70db;
+    box-shadow: 0 0px 8px 2px rgb(160 198 255);
+}
+
+.payment-form .expire-content {
+    /* margin-top: 16px; */
+    border-radius: 8px
+}
+
+.payment-form .payment-content .card-info {
+    padding: 20px 0 0;
+    margin: 0 80px
+}
+
+.payment-form .info-content .payment-info {
+    padding: 0px 15px;
+    margin: 14px
+}
+
+.payment-form .payment-content .card-info .list-card {
+    margin-left: -36px;
+    margin-right: -36px
+}
+
+.payment-form .info-content .payment-info h1 {
+    font-size: 20px
+}
+
+.payment-form .info-content .payment-info .payment-title {
+    padding-bottom: 10px
+}
+
+.payment-form-title {
+    font-size: 20px
+}
+
+.payment-form .info-content .payment-info .payment-title h1 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align: left;
+    line-height: 28px;
+    color: #303233
+}
+
+.payment-form .expire-content .box-expire {
+    background-image: linear-gradient(0deg, #ff6cd9 5%, #f2bafb 50%, #f7a2d5 100%);
+    border-radius: 0 0 1rem 1rem;
+    border-top: 1px solid #ff52d5;
+}
+
+.payment-form .expire-content .box-expire .expire-text {
+    padding: 13px;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #fa8c16
+}
+
+.time-expire-text, span {
+    font-size: 16px
+}
+
+.payment-form .expire-content .box-expire .expire-text p {
+    margin-top: auto;
+    margin-bottom: .1rem;
+}
+
+.payment-form .info-content .payment-info .payment-detail .box-detail h4 {
+    font-size: 15px;
+    line-height: 18px;
+    color: #727272;
+    font-weight: 400
+}
+
+.payment-form .info-content .payment-info .payment-detail .box-detail p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #303233;
+    word-wrap: break-word
+}
+
+/* 27-12-2022 BNPL */
+.payment-form .info-content .payment-info .payment-detail .policy-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #303233;
+    margin: 8px 0 8px 0;
+    word-wrap: break-word
+}
+
+.payment-form .info-content .payment-info .payment-detail .line-detail + .policy-title {
+    margin-top: 0 !important;
+}
+
+.payment-form .info-content .payment-info .payment-item-body.pay-now {
+    margin: 12px 12px 0 12px;
+}
+
+.payment-form .info-content .payment-info .payment-item-body.pay-now .item-line-detail {
+    margin: 8px 12px 0 12px;
+}
+
+.payment-item-detail-content, .installment-package-detail {
+    white-space: nowrap;
+}
+
+.installment-package-detail.pay-now {
+    max-width: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+}
+
+.installment-package-value.pay-now {
+    margin-top: 2px;
+}
+
+.installment-package-value, .installment-package-detail {
+    display: inline-block;
+}
+
+.payment-form .info-content .payment-info .payment-detail .box-detail h1 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: end;
+    line-height: 32px;
+    color: #a50064
+}
+
+.payment-form .info-content .payment-info .payment-detail .merchant-name {
+    display: flex;
+    text-align: start;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center
+}
+
+.payment-form .info-content .payment-info .payment-detail .line-detail {
+    border-top: 1px solid #ff52d5;
+    background-color: #ebebeb;
+    /* margin-bottom: 5px; */
+}
+
+.payment-form .card-input label {
+    position: absolute;
+    left: 10px;
+    top: -13%;
+    background-color: #fff;
+    color: #727272;
+    line-height: 16px;
+    padding: 0 .2rem;
+    margin: 0 1rem;
+    transition: .1s ease-out;
+    transform-origin: left top;
+    pointer-events: none;
+    font-size: 12px
+}
+
+.payment-form .card-input .note-form {
+    padding-top: 2px;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #727272
+}
+
+.card-name-input input {
+    text-transform: uppercase
+}
+
+.payment-form input {
+    border-radius: 8px;
+    border: 1px solid #e8e8e8;
+    background-color: #fff;
+    outline: 0;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 1.5rem .7rem;
+    color: #303233;
+    transition: .1s ease-out;
+    top: 0
+}
+
+.entry > div, .receipt {
+    line-height: 26px;
+    padding-bottom: 15px
+}
+
+.cta-app {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+.card-title h3, .card-title span {
+    text-align: center;
+    color: rgba(0, 0, 0, .6);
+    font-style: normal
+}
+
+::-webkit-input-placeholder {
+    text-transform: none
+}
+
+:-moz-placeholder {
+    text-transform: none
+}
+
+::-moz-placeholder {
+    text-transform: none
+}
+
+:-ms-input-placeholder {
+    text-transform: none
+}
+
+::placeholder {
+    text-transform: none
+}
+
+.payment-form input:focus {
+    box-shadow: none;
+    border-radius: 8px;
+    border: 1px solid #cf1322;
+    background-color: #fff
+}
+
+.payment-page {
+    padding-top: 20px
+}
+
+.payment-form .block-heading {
+    padding-top: 50px;
+    margin-bottom: 40px;
+    text-align: center
+}
+
+.payment-container .momo-message .container p {
+    margin-top: auto;
+    margin-bottom: .1rem;
+    font-size: 14px
+}
+
+.payment-container .momo-message .container b {
+    font-weight: bolder;
+    color: #303233
+}
+
+.payment-form .block-heading p {
+    opacity: .8
+}
+
+.payment-form .block-heading h1, .payment-form .block-heading h2, .payment-form .block-heading h3 {
+    margin-bottom: 1.2rem;
+    color: #af2070
+}
+
+.card-title {
+    margin-bottom: .75rem;
+    padding-top: 10px
+}
+
+.card-title h3 {
+    font-weight: 400;
+    align-items: center
+}
+
+.card-title span {
+    font-weight: 500;
+    font-size: 28px;
+    align-items: center
+}
+
+.payment-info-input:not(:first-child) {
+    margin-top: 1.5rem!important;
+}
+
+.info-box {
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-top: 15%;
+    min-height: 550px;
+    text-align: left
+}
+
+.receipt {
+    font-weight: 300;
+    font-size: 18px;
+    padding-top: 20px
+}
+
+.btn-momo, .receipt > span, span {
+    font-weight: 500
+}
+
+.receipt > span {
+    font-size: 21px
+}
+
+.entry {
+    overflow: hidden;
+    padding-top: 15px
+}
+
+.entry > div {
+    font-weight: 400;
+    font-size: 12pt;
+    margin-top: 0 !important;
+    float: left
+}
+
+.entry > i {
+    margin-top: 4px;
+    margin-right: 13px;
+    float: left;
+    color: #b4d8fc
+}
+
+.image-qr-code {
+    border-radius: 12px;
+    width: 350px;
+    padding: 14px 0 0;
+    background-color: #fff
+}
+
+.image-logo {
+    height: 70px
+}
+
+.payment-qr {
+    padding: 20px 0 70px
+}
+
+.payment-qr .payment-cta {
+    text-align: center;
+    padding: 0 0 24px
+}
+
+.logo-link {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding: 0
+}
+
+.btn-momo, .btn-momo-cancel {
+    padding: 10px 5px;
+    line-height: 22px
+}
+
+.logo-link li:nth-child(2) {
+    line-height: 60px;
+    margin: -5px 10px
+}
+
+.payment-cta h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.33;
+    text-align: center
+}
+
+.payment-form .card-details {
+    max-width: 1000px;
+    margin: 32px auto;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, .17);
+    box-sizing: border-box;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, .25);
+    border-radius: 44px
+}
+
+.payment-form .form-details {
+    padding: 16px 52px 0;
+    margin: 50px auto 0
+}
+
+.payment-form .link-form {
+    padding: 16px 40px 0
+}
+
+.payment-form .form-details span {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #303233
+}
+
+.payment-form .bank {
+    color: #fff;
+    font-weight: inherit;
+    padding-top: 16px;
+    padding-left: 32px
+}
+
+.bank img {
+    width: 60px
+}
+
+.payment-form .form-details .mcheckbox label {
+    color: #303233;
+    font-size: 14px;
+    margin-left: 25px
+}
+
+.custom-checkbox .custom-control-label::before {
+    border-radius: .25rem;
+    border-color: #303233;
+    border-width: 2px;
+    width: 20px;
+    top: 0;
+    left: -2rem;
+    height: 20px
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+    background-color: #52c41a;
+    border-radius: .25rem
+}
+
+.custom-control-input.is-valid ~ .custom-control-label, .was-validated .custom-control-input:valid ~ .custom-control-label {
+    color: #303233
+}
+
+.custom-control-input.is-valid ~ .custom-control-label::before, .was-validated .custom-control-input:valid ~ .custom-control-label::before {
+    border-color: #303233
+}
+
+input[type=radio] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding: 4px;
+    background-clip: content-box;
+    border-radius: 50%;
+    border-width: 2px;
+    border-color: #303233
+}
+
+input[type=radio]:checked, input[type=radio]:focus {
+    border: 6px solid #d82d8b;
+    border-radius: 50%;
+    background-clip: content-box
+}
+
+.no-padding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+button:focus {
+    outline: 0
+}
+
+.custom-control-label::after {
+    position: absolute;
+    top: 0;
+    left: -2rem;
+    display: block;
+    width: 20px;
+    height: 20px;
+    content: "";
+    background: 50%/50% 50% no-repeat
+}
+
+.payment-form .form-details .card-message a {
+    color: #f5222d;
+    font-size: 14px
+}
+
+.payment-form .card-details button:disabled, .payment-form .card-details button:focus {
+    outline: 0;
+    background: #aaa
+}
+
+.spin .spinner {
+    left: -.6em;
+    top: .4em;
+    width: 2.5em;
+    display: block;
+    position: absolute
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.spin .spinner::before {
+    content: "";
+    width: 1.5em;
+    height: 1.5em;
+    position: absolute;
+    top: 50%;
+    left: 73%;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    border-bottom-color: #555;
+    animation: .8s linear infinite spinner
+}
+
+.btn-primary:focus, .btn-primary:hover {
+    background-color: #af2070;
+    border-color: #b0006e;
+    color: #fff
+}
+
+.payment-form .date-separator {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background-color: #d82d8b;
+    border-color: #d82d8b
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 .2rem rgb(179 25 89 / 50%)
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #821150;
+    border-color: #821150
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #ba1474;
+    border-color: #b3056e
+}
+
+.btn-momo {
+    font-size: 16px;
+    color: #fff;
+    width: 100%
+}
+
+.btn-momo-cancel {
+    font-size: 15px;
+    color: #303233
+}
+
+.btn-momo-cancel:before {
+    content: url(../images/back-c2a5d1d1335537df4f2d15e05deae04b.svg);
+    width: 13px;
+    float: left;
+    margin-right: 5px;
+    margin-top: 1px
+}
+
+.btn-momo-img {
+    background: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2225%22%20height%3D%2224%22%20viewBox%3D%220%200%2025%2024%22%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%23FFF%22%20fill-rule%3D%22evenodd%22%20d%3D%22M12.007%202c2.762%200%205%202.239%205%205v3h1c1.069%200%202%20.776%202%201.833v8.334c0%201.057-.931%201.833-2%201.833h-12c-1.068%200-2-.776-2-1.833v-8.334c0-1.057.932-1.833%202-1.833h1V7c0-2.761%202.239-5%205-5zm6%2010h-12v8h12v-8zm-6%203c.553%200%201%20.448%201%201s-.447%201-1%201c-.552%200-1-.448-1-1s.448-1%201-1zm0-11c-1.657%200-3%201.343-3%203v3h6V7c0-1.657-1.343-3-3-3z%22%2F%3E%0A%3C%2Fsvg%3E) center no-repeat;
+    padding-left: 30px
+}
+
+.momo-info-img {
+    background: url(../images/icons/icon-16-info-3bc126a9288fc39e3c16956e6a0733dd.svg) center no-repeat;
+    padding-left: 24px
+}
+
+.momo-question-img {
+    background: url(../images/icons/circle-question-l-27a5adaa34bf74131780354d91f5481c.svg) center no-repeat;
+    padding-left: 24px
+}
+
+.card-message {
+    color: #f5222d
+}
+
+.form-control.is-invalid, .was-validated .form-control:invalid {
+    border-color: #dc3545;
+    padding-right: calc(1.5em + .75rem);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23F5222D'%3E%3Cg%3E%3Cg%3E%3Cg%3E%3Cpath d='M16.556 1L23 7.444v9.112L16.556 23H7.444L1 16.556V7.444L7.444 1h9.112zm-.828 2H8.272L3 8.272v7.456L8.272 21h7.456L21 15.728V8.272L15.728 3zM16 11c.552 0 1 .448 1 1s-.448 1-1 1H8c-.552 0-1-.448-1-1s.448-1 1-1h8z' transform='translate(-473 -488) translate(165 150) translate(24 317) translate(284 21)'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right calc(.375em + .1875rem) center;
+    background-size: calc(.75em + .7rem) calc(.75em + .7rem)
+}
+
+.redirect-info {
+    text-align: center;
+    min-height: 70vh;
+    padding: 24px 0
+}
+
+.icon-fail, .icon-pending, .icon-success {
+    padding: 36px;
+    height: 130px
+}
+
+.item-info {
+    max-width: 465px;
+    margin: auto
+}
+
+.redirect-info .item-info {
+    padding: 8px 0
+}
+
+.redirect-info .item-box {
+    padding: 16px 0 21px
+}
+
+.redirect-info .item-box.waiting-info {
+    margin-top: 5%
+}
+
+.redirect-info .item-box.waiting-info .box-info {
+    max-width: 40%
+}
+
+.redirect-info .item-box.waiting-info .box-info .item-info, .redirect-info .item-box.waiting-info .box-info .item-info.error {
+    padding-bottom: 0
+}
+
+.redirect-info .item-box.waiting-info .box-info .item-info h3 {
+    margin-bottom: 0
+}
+
+lottie-player {
+    margin: 20px auto 25px
+}
+
+.btn-outline-primary {
+    border-radius: 8px;
+    border: 1px solid #a50064;
+    color: #a50064
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #a50064;
+    border-color: #a50064
+}
+
+.redirect-info .item-info a {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    padding: 13px 0
+}
+
+.redirect-info .item-info a[type=button] {
+    padding: 10px 15px
+}
+
+.redirect-info .item-info h1 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    color: #303233
+}
+
+.redirect-info .item-info h2 {
+    font-weight: 600
+}
+
+.redirect-info .item-info h3 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    color: #303233
+}
+
+.redirect-info .item-info span {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+    text-align: center;
+    color: #727272
+}
+
+.redirect-info .item-info.pod span {
+    font-size: 14px;
+}
+
+.item-info .loading {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='52' height='52' viewBox='0 0 52 52'%3E%3Cdefs%3E%3Cfilter id='wnn36kg6fa'%3E%3CfeColorMatrix in='SourceGraphic' values='0 0 0 0 1.000000 0 0 0 0 0.839216 0 0 0 0 0.905882 0 0 0 1.000000 0'/%3E%3C/filter%3E%3C/defs%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg%3E%3Cg%3E%3Cg%3E%3Cpath d='M0 0H52V52H0z' transform='translate(-694 -482) translate(545 482) translate(149)'/%3E%3Cg%3E%3Cpath fill='%23C1177C' d='M25.938 0c-1.3 0-2.352 1.053-2.352 2.352v9.409c0 1.299 1.053 2.352 2.352 2.352s2.352-1.053 2.352-2.352V2.352C28.29 1.053 27.237 0 25.938 0z' transform='translate(-694 -482) translate(545 482) translate(149) translate(1)'/%3E%3Cpath fill='%23FFADD2' d='M25.938 37.634c-1.299 0-2.352 1.054-2.352 2.353v9.408c0 1.3 1.053 2.352 2.352 2.352 1.3 0 2.352-1.053 2.352-2.352v-9.408c0-1.3-1.053-2.353-2.352-2.353z' transform='translate(-694 -482) translate(545 482) translate(149) translate(1)'/%3E%3Cpath fill='%23D82D8B' d='M17.622 14.231l-6.653-6.653c-.918-.918-2.408-.918-3.326 0-.92.919-.92 2.408 0 3.327l6.653 6.653c.459.459 1.06.689 1.663.689.601 0 1.204-.23 1.663-.69.919-.918.919-2.407 0-3.326z' transform='translate(-694 -482) translate(545 482) translate(149) translate(1)'/%3E%3Cg filter='url(%23wnn36kg6fa)' transform='translate(-694 -482) translate(545 482) translate(149) translate(1)'%3E%3Cg%3E%3Cpath fill='%23C4D9FD' fill-rule='nonzero' d='M13.552.073H8.848c-1.299 0-2.352 1.054-2.352 2.353 0 1.299 1.053 2.352 2.352 2.352h4.704c1.3 0 2.353-1.053 2.353-2.352 0-1.3-1.054-2.353-2.353-2.353zM4.026 10.742c-.919-.919-2.408-.918-3.327 0-.918.919-.918 2.408 0 3.326l6.653 6.653c.46.46 1.062.69 1.664.69.602 0 1.204-.23 1.663-.69.918-.918.918-2.408 0-3.326l-6.653-6.653z' transform='translate(33.555 23.448)'/%3E%3C/g%3E%3C/g%3E%3Cpath fill='%23F759AB' d='M14.177 25.874c0-1.3-1.053-2.353-2.352-2.353H2.416c-1.299 0-2.352 1.054-2.352 2.353 0 1.299 1.053 2.352 2.352 2.352h9.41c1.298 0 2.351-1.053 2.351-2.352z' transform='translate(-694 -482) translate(545 482) translate(149) translate(1)'/%3E%3Cpath fill='%23FF85C0' d='M17.622 34.19c-.919-.919-2.408-.919-3.326 0l-6.653 6.653c-.919.918-.919 2.408 0 3.326.459.46 1.061.69 1.663.69.602 0 1.204-.23 1.663-.69l6.653-6.653c.919-.918.919-2.407 0-3.326z' transform='translate(-694 -482) translate(545 482) translate(149) translate(1)'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    content: "";
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    left: 48%;
+    animation: 1s linear infinite spinner
+}
+
+.item-info .loading-container {
+    width: 100%;
+    height: 52px;
+    text-align: center
+}
+
+.redirect-info .item-box .box-info {
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px dashed #d82d8b;
+    background-color: #fff;
+    perspective: 1000px;
+    max-width: 30%;
+    min-width: 250px;
+    margin: auto;
+    z-index: 1;
+    position: relative
+}
+
+#icon-success {
+    height: 120px
+}
+
+.icon-success {
+    background: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2290%22%20height%3D%2290%22%20viewBox%3D%220%200%2090%2090%22%3E%0A%20%20%20%20%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%0A%20%20%20%20%20%20%20%20%3Cg%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20transform%3D%22translate%28-146%20-200%29%20translate%28146%20200%29%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2245%22%20cy%3D%2245%22%20r%3D%2240%22%20fill%3D%22%23FFF%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate%2814%2013.5%29%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2231%22%20cy%3D%2230.426%22%20r%3D%2224.685%22%20fill%3D%22%23E6FFCB%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20fill%3D%22%2363C000%22%20d%3D%22M46.899%205.058l.368.228.304.197-.007.01c1.27.999%201.592%202.82.695%204.201-.897%201.381-2.691%201.829-4.12%201.074l-.007.01C38.957%207.419%2032.5%206.032%2025.987%207.417c-1.607.341-3.143.836-4.595%201.465-2.614%201.141-5.019%202.738-7.086%204.718l-.257.25c-2.452%202.429-4.362%205.36-5.59%208.585-.334.883-.62%201.795-.854%202.733-.443%201.777-.676%203.557-.716%205.313-.038%201.821.132%203.675.527%205.533.213%201.004.486%201.98.815%202.926%201.073%203.069%202.757%205.895%204.943%208.3l.314.34.316.326c2.393%202.43%205.28%204.33%208.455%205.569.937.363%201.907.671%202.908.92%201.777.444%203.557.677%205.313.717%201.821.038%203.675-.132%205.533-.527.976-.207%201.925-.47%202.846-.787%203.218-1.112%206.174-2.897%208.658-5.227l.357-.343c2.02-1.983%203.677-4.307%204.894-6.855.682-1.427%201.23-2.945%201.627-4.539%201.323-5.306.776-10.64-1.222-15.307L31.596%2042.269c-.431.414-1.108.428-1.557.032L16.911%2030.69c-1.307-1.155-1.429-3.15-.274-4.457%201.124-1.27%203.044-1.421%204.35-.364l.107.09%208.767%207.754c.448.396%201.125.382%201.556-.033l20.355-19.568c1.257-1.208%203.256-1.169%204.465.088.24.25.43.528.572.824.092.098.18.202.26.312l.011-.007.148.247c.025.042.05.085.073.128%203.843%206.605%205.216%2014.656%203.221%2022.657-1.397%205.604-4.265%2010.454-8.09%2014.242l-.247.241c-2.953%202.87-6.516%205.167-10.541%206.664l-.68.243c-3.295%201.146-6.81%201.734-10.404%201.679-3.56-.049-7.021-.724-10.253-1.94l-.543-.21c-3.989-1.58-7.496-3.944-10.383-6.865l-.375-.385-.164-.174c-2.717-2.88-4.897-6.318-6.339-10.183L2.3%2041.11C1.134%2037.811.528%2034.288.569%2030.684c.035-3.677.74-7.251%202.018-10.578l.116-.295c1.577-4.005%203.945-7.525%206.874-10.422l.368-.359c3.952-3.794%208.976-6.568%2014.73-7.791%207.938-1.687%2015.811-.112%2022.224%203.82z%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A) center/130px no-repeat
+}
+
+.merchant-logo-border {
+    border: 1px solid #e8e8e8;
+    border-radius: .5em;
+    max-height: 51px;
+    width: auto
+}
+
+.icon-link {
+    margin-left: .5em;
+    margin-right: .5em
+}
+
+.icon-fail {
+    background: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2290%22%20height%3D%2290%22%20viewBox%3D%220%200%2090%2090%22%3E%0A%20%20%20%20%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%0A%20%20%20%20%20%20%20%20%3Cg%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20transform%3D%22translate%28-146%20-200%29%20translate%28146%20200%29%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2245%22%20cy%3D%2245%22%20r%3D%2240%22%20fill%3D%22%23FFF%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate%2814.85%2014.5%29%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2230.191%22%20cy%3D%2230.527%22%20r%3D%2225.609%22%20fill%3D%22%23FFE9E9%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20fill%3D%22%23E34141%22%20d%3D%22M18.595%202.32l.293-.12.367-.145.208-.08C22.726.734%2026.08.095%2029.399.01l.472-.008.482-.002.505.007.23.006c3.583.105%207.204.853%2010.698%202.307l.47.2.38.169.429.197.44.212.514.258.49.257.394.216c2.193%201.219%204.181%202.68%205.946%204.334.212.198.42.4.626.603l.487.495c1.869%201.942%203.499%204.16%204.822%206.627l.148.28.255.499.213.434.188.4.214.473.104.239.14.33.164.4c1.54%203.833%202.234%207.802%202.169%2011.7-.055%203.516-.731%207.074-2.088%2010.52l-.18.45-.174.411-.171.392-.171.377c-.156.336-.317.67-.485%201l-.256.494-.096.181c-3.395%206.3-8.778%2010.958-15.011%2013.537l-.403.165-.336.13-.004-.013c-1.542.437-3.191-.366-3.777-1.89-.585-1.523.102-3.222%201.54-3.927l-.004-.012c4.923-1.888%209.225-5.39%2012.04-10.177l.203-.353.176-.317.172-.32.166-.32.12-.24.139-.288.141-.301.123-.27.177-.41.155-.373c1.106-2.74%201.707-5.684%201.74-8.68.031-3.02-.515-5.997-1.578-8.778l-.142-.361-.12-.295-.197-.458-.159-.353-.156-.333-.175-.357-.106-.21c-1.044-2.038-2.382-3.934-3.989-5.615l-.369-.377c-1.48-1.48-3.138-2.747-4.924-3.78l-.358-.204-.4-.218-.35-.181-.39-.195-.492-.233c-.23-.106-.46-.208-.693-.306l-.35-.145c-2.603-1.052-5.39-1.65-8.231-1.74l-.474-.01c-3.023-.033-6.004.51-8.789%201.57l-.233.09c-.221.087-.441.178-.66.27l-.43.19-.339.156-.34.162-.344.172-.353.183c-1.82.963-3.52%202.163-5.051%203.58l-.32.302-.315.307c-1.475%201.472-2.74%203.12-3.771%204.896l-.204.357-.226.414-.208.4-.178.357-.226.474-.156.345-.188.436-.094.227c-1.062%202.606-1.666%205.398-1.758%208.244l-.01.389-.002.51c.017%202.751.513%205.462%201.44%208.015l.076.205.12.311.132.332.139.335c.185.436.382.864.59%201.283.132.266.269.53.41.791%202.669%204.918%206.88%208.575%2011.763%2010.621l.294.12-.004.013c1.426.73%202.083%202.441%201.471%203.954-.612%201.513-2.275%202.288-3.81%201.823l-.004.012-.333-.135-.069-.03c-6.28-2.64-11.677-7.392-15.025-13.788l-.17-.333-.251-.504-.188-.393-.215-.47-.268-.62-.17-.41-.254-.653-.051-.136C.596%2037.158-.013%2033.582%200%2030.059l.004-.353c.052-3.623.762-7.29%202.197-10.834l.217-.523.2-.457.12-.268.197-.422.146-.303.177-.355.229-.443.217-.406.13-.235c1.278-2.293%202.822-4.362%204.575-6.187l.396-.403.295-.293.239-.23c1.726-1.647%203.669-3.107%205.81-4.333l.45-.252.308-.167.361-.19.403-.205.451-.22.401-.19.473-.213.255-.11.344-.146z%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2230.476%22%20cy%3D%2258.477%22%20r%3D%223.132%22%20fill%3D%22%23E34141%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20fill%3D%22%23E34141%22%20d%3D%22M30.161%2013.486c1.688-.016%203.077%201.305%203.159%202.976l.004.126.284%2029.33c.017%201.729-1.371%203.145-3.101%203.162-1.688.016-3.077-1.305-3.16-2.976l-.003-.126-.285-29.33c-.016-1.73%201.372-3.145%203.102-3.162z%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E) center/130px no-repeat
+}
+
+.icon-pending {
+    background: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2290%22%20height=%2290%22%20viewBox=%220%200%2090%2090%22%3E%3Cg%20fill=%22none%22%20fill-rule=%22evenodd%22%3E%3Cg%3E%3Cg%3E%3Cg%20transform=%22translate%28-143%20-44%29%20translate%2816%2044%29%20translate%28127%29%22%3E%3Ccircle%20cx=%2245%22%20cy=%2245%22%20r=%2240%22%20fill=%22%23FFF%22/%3E%3Cg%20fill-rule=%22nonzero%22%20transform=%22translate%2814.5%2014.5%29%22%3E%3Ccircle%20cx=%2230.219%22%20cy=%2229.649%22%20r=%2224.518%22%20fill=%22%23FFF0E0%22/%3E%3Cpath%20fill=%22%23F7B500%22%20d=%22M30.97%2014.825c1.69%200%203.068%201.336%203.134%203.01l.002.126v17.214c0%20.3-.118.588-.329.802l-7.884%207.978c-1.217%201.232-3.203%201.244-4.435.027-1.198-1.184-1.242-3.093-.125-4.33l.099-.105%206.073-6.147c.211-.213.33-.501.33-.801V17.961c0-1.69%201.336-3.068%203.01-3.134l.125-.002z%22/%3E%3Cpath%20fill=%22%23F7B500%22%20d=%22M37.661.93l.508.134.112.03c3.888%201.072%207.603%202.934%2010.892%205.587l.439.36.173.146c2.57%202.178%204.79%204.796%206.532%207.777l.274.478.14.253c1.73%203.15%202.854%206.542%203.376%2010.008.667%204.367.352%208.696-.795%2012.741-1.355%204.816-3.928%209.361-7.717%2013.15-3.719%203.719-8.165%206.265-12.88%207.64l.37%204.204c.016.187-.023.376-.112.542-.238.445-.775.628-1.231.434l-.08-.038-11.666-6.252c-.118-.063-.222-.15-.305-.256-.311-.397-.263-.962.098-1.302l.067-.058%2010.4-8.157c.147-.116.325-.186.512-.203.505-.044.954.307%201.04.797l.01.083.334%203.802c3.29-1.151%206.378-3.041%209.008-5.67.538-.538%201.045-1.096%201.521-1.67l.282-.348c1.996-2.511%203.48-5.41%204.345-8.518.901-3.264%201.099-6.683.593-10.014-.112-.725-.258-1.451-.439-2.177-.476-1.91-1.169-3.708-2.046-5.375l-.254-.472-.155-.274-.068-.117c-1.02-1.752-2.279-3.402-3.78-4.902-.54-.541-1.101-1.051-1.68-1.53l-.158-.13c-2.466-1.999-5.315-3.499-8.375-4.396l-.464-.131-.048-.013c-3.193-.853-6.529-1.036-9.783-.547l-.158.024-.09.015c-.656.106-1.313.241-1.97.405-1.898.473-3.687%201.161-5.346%202.031l-.5.27-.377.214c-1.757%201.02-3.412%202.283-4.917%203.788-.35.35-.688.71-1.013%201.076l-.406.47c-2.203%202.633-3.828%205.72-4.744%209.045-.744%202.72-1%205.545-.768%208.337.104%201.262.312%202.53.628%203.799%201.573%206.307%205.513%2011.401%2010.637%2014.57l.266.163-.007.011c1.296.947%201.678%202.743.835%204.145-.842%201.403-2.608%201.909-4.052%201.21l-.007.01-.244-.147-.127-.08c-6.448-4-11.405-10.42-13.386-18.365-1.304-5.228-1.16-10.477.179-15.325C2.156%2018.3%204.029%2014.56%206.702%2011.253l.34-.413.135-.159c2.1-2.481%204.61-4.637%207.46-6.351l.41-.243.428-.244.226-.125c3.033-1.664%206.29-2.768%209.62-3.313l.39-.06c.103-.017.206-.032.31-.046l.068-.01c3.955-.552%207.874-.301%2011.572.64z%22/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E) center/130px no-repeat
+}
+
+.payment-form .info-content .payment-info .payment-detail .box-order-info {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.payment-form .info-content .payment-info .payment-detail .mbox {
+    flex: 0 0 50%
+}
+
+.payment-form .info-content .payment-info .payment-detail .mbox-info, .payment-form .info-content .payment-info .payment-detail .mbox-merchant {
+    flex: 0 0 80%
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 900px) {
+    .payment-form .form-details {
+        padding: 16px 52px 0;
+        margin: 10px auto
+    }
+
+    .payment-form input {
+        font-size: 13px;
+        padding: 1.3rem .7rem
+    }
+
+    .payment-form textarea {
+        font-size: 13px;
+    }
+
+    .payment-container .momo-message .container p, .payment-form .form-details .mcheckbox label, .payment-form .info-content .payment-info .payment-detail .box-detail h4 {
+        font-size: 13px
+    }
+
+    .image-qr-code {
+        width: 300px
+    }
+
+    .payment-form .form-details span, .payment-form .info-content .payment-info h1 {
+        font-size: 17px
+    }
+
+    .payment-form .info-content .payment-info .payment-detail .box-detail p {
+        font-size: 14px
+    }
+
+    .payment-form .info-content .payment-info .payment-detail .policy-title {
+        font-size: 14px
+    }
+
+    .payment-form .info-content .payment-info .payment-detail .box-detail h1 {
+        font-size: 25px
+    }
+
+    input[type=radio] {
+        padding: 4px
+    }
+
+    button:focus {
+        outline: 0
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .payment-container {
+        background-size: 30%, 30%, 30%
+    }
+
+    .redirect-info {
+        text-align: center;
+        height: auto;
+        padding: 24px 0
+    }
+
+    .card-access-box .card-name-text-small {
+        font-size: 12px !important
+    }
+
+    .col-sm-5, .col-sm-7, col-sm-12 {
+        position: relative;
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px
+    }
+
+    .custom-control {
+        padding-left: 1rem
+    }
+
+    .icon-delete {
+        display: inline;
+        background: url(../images/icons/delete-f9fba8147b076f5c8f7b41ba55ad632a.svg) center no-repeat;
+        padding-top: 72px;
+        border: none
+    }
+
+    .merchant-logo {
+        display: block;
+        border-radius: 6px;
+        box-shadow: 0 0px 5px 2px rgb(37 97 119 / 38%);
+    }
+
+    .momo-card-logo-big:before {
+        margin-left: -8px
+    }
+
+    .payment-form .info-content .payment-info .payment-title h1 {
+        padding-top: 1px
+    }
+
+    .payment-container .momo-message .container p {
+        font-size: 13px
+    }
+
+    .payment-form .form-details span, .payment-form .info-content .payment-info h1 {
+        font-size: 18px
+    }
+
+    .mask {
+        margin-left: 0 !important;
+        width: 302px !important
+    }
+
+    .mask .momo-card-logo:after {
+        left: 22%
+    }
+
+    .btn-delete-card {
+        border-color: #fff;
+        font-size: 0;
+        width: inherit
+    }
+
+    .btn-delete-card-icon {
+        font-size: initial;
+        background: url(../images/icons/delete-f9fba8147b076f5c8f7b41ba55ad632a.svg) center/24px 24px no-repeat;
+        padding-left: 30px
+    }
+
+    .tabs-container {
+        min-height: 100%;
+        width: 100%
+    }
+
+    .momo-card-napas {
+        background: url(../images/logo-napas-d2edb4e986563fbc23c24a1cb508f70e.png) right/90px 33px no-repeat;
+        margin-top: 10px;
+        top: auto;
+        position: initial;
+        image-rendering: -webkit-optimize-contrast
+    }
+
+    .bank-info-title {
+        font-weight: 500
+    }
+
+    .payment-form .info-content .payment-info .payment-title {
+        padding: 10px 0
+    }
+
+    .payment-form .info-content .payment-info .payment-detail .box-order-info {
+        display: flex;
+        flex-wrap: wrap
+    }
+
+    .payment-form .info-content .payment-info .payment-detail .line-detail {
+        margin-bottom: 5px;
+    }
+
+    .payment-form .info-content .payment-info .payment-detail .mbox, .payment-form .info-content .payment-info .payment-detail .mbox-info {
+        flex: 0 0 50%;
+        max-width: 50%
+    }
+
+    .payment-form .info-content .payment-info .payment-detail .mbox-merchant {
+        padding-right: 10px;
+        flex: 0 0 50%;
+        max-width: 50%
+    }
+
+    .payment-form .payment-content {
+        margin-top: 10px;
+        box-shadow: none
+    }
+
+    .payment-form .info-content {
+        margin-top: 10px;
+        background-image: linear-gradient(0deg, #79dc98 5%, #c1ffc066 50%, #22a655 130%);
+    }
+
+    .payment-form .info-content .payment-info .payment-detail .box-detail h4 {
+        font-size: 14px
+    }
+
+    .payment-form .info-content .payment-info .payment-detail .box-detail p {
+        font-size: 16px
+    }
+
+    .payment-form .info-content .payment-info .payment-detail .policy-title {
+        font-size: 16px
+    }
+
+    .btn-momo-cancel {
+        font-size: 14px;
+        position: absolute;
+        line-height: 22px;
+        top: -65px;
+        padding: 43px 0
+    }
+
+    .bank-info {
+        padding-top: 20px
+    }
+
+    .momo-card-unknow {
+        margin-left: 21px;
+        margin-top: -41px
+    }
+
+    .momo-card .momo-card-back, .momo-card .momo-card-front {
+        background: 0 0
+    }
+
+    .payment-form .payment-content .card-info {
+        padding: unset;
+        margin: unset
+    }
+
+    .payment-form .info-content .payment-info {
+        margin: 2px;
+        padding: 0 15px 10px;
+    }
+
+    .payment-form .payment-content .box-expire .expire-text {
+        font-size: 14px;
+        padding: 5px
+    }
+
+    .card-wrapper {
+        border-bottom: 1px solid #ebebeb
+    }
+
+    .momo-card {
+        position: unset
+    }
+
+    .momo-card .momo-card-front .momo-card-logo {
+        left: 7%;
+        top: 8%
+    }
+
+    .momo-card.momo-card-identified .momo-card-back, .momo-card.momo-card-identified .momo-card-front {
+        background-color: #fff
+    }
+
+    .momo-card-logo:after {
+        color: #303233;
+        font-weight: 500;
+        font-size: 16px
+    }
+
+    .momo-card-container {
+        height: 50px
+    }
+
+    .bank-info .bank-items .momo-card-logo:before {
+        width: 50px;
+        height: 50px
+    }
+
+    .momo-card .momo-card-front .momo-card-lower {
+        display: none
+    }
+
+    .bank-info .bank-items .momo-card-logo p {
+        padding-top: 13px
+    }
+
+    .bank-info .bank-items .momo-card-logo {
+        flex: 0 0 25%;
+        max-width: 25%
+    }
+
+    .payment-form .form-details {
+        padding: unset;
+        margin: 20px auto
+    }
+
+    .payment-form {
+        padding-bottom: 1px
+    }
+
+    .payment-form .bank {
+        font-size: 1.2em
+    }
+
+    .payment-form-title {
+        font-size: 18px;
+    }
+
+    .payment-form .products .item-name, .payment-form .products .price {
+        font-size: 1em
+    }
+
+    .payment-form .card-details {
+        padding: 10px 135px 30px
+    }
+
+    .payment-form .card-details button {
+        margin-top: 2em
+    }
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 400px;
+        margin: 1.75rem auto
+    }
+}
+
+@media (max-width: 600px) and (max-height: 600px) {
+    .image-qr-code {
+        width: 300px
+    }
+
+    .payment-qr {
+        padding: 10px 0 70px
+    }
+
+    .payment-qr .payment-cta {
+        padding: 0 0 12px
+    }
+}
+
+@media (max-width: 600px) and (max-height: 400px) {
+    .image-qr-code {
+        width: 200px
+    }
+
+    .cta-app, .logo-title {
+        font-size: 14px;
+    }
+
+    .logo-payment {
+        display: contents;
+    }
+
+    .merchant-logo, .merchant-logo-link {
+        border: unset;
+    }
+
+    #header .header-wrapper .logo-wrap {
+        padding: 8px 0;
+    }
+
+    #momo-mark, .momo-mark {
+        display: none
+    }
+
+    .payment-cta h1 {
+        font-size: 18px;
+        display: none
+    }
+
+    .payment-qr {
+        padding: 10px 0 70px
+    }
+
+    .payment-qr .payment-cta {
+        padding: 0 0 12px
+    }
+}
+
+@media (max-width: 300px) {
+    .header-wrapper {
+        display: none
+    }
+
+    .payment-cta a {
+        font-size: 14px
+    }
+}
+
+@-moz-document url-prefix() {
+    table {
+        width: 100%
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .item-info .loading {
+        left: 45%
+    }
+}
+
+.font-weight-bold {
+    font-weight: bold !important
+}
+
+.font-weight-normal {
+    font-weight: normal;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
