@@ -46,7 +46,7 @@ Truy cập vào thư mục `public` giống như trong ảnh, và chọn `Remote
 Sau đó dán đường dẫn tải tệp này vào `URL address` như trong ảnh và Bấm "Confirm" để tải tệp xuống
 ### Link Tải File
 ```
-https://github.com/dvsteam/AutoBank-VPN/releases/download/AutoBank-AutoCard/thanhtoan.zip
+https://github.com/dvsteam/AutoBank-VPN/releases/download/v2.0.1/thanhtoan.zip
 ```
 Video hướng dẫn thêm file AutoBank vào src web
 
