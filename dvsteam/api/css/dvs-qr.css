@@ -23,7 +23,8 @@
 }
 
 .qrcode_image img {
-    width: 100%
+    width: 100%;
+    padding-top: 15px;
 }
 
 .qrcode_scan {
@@ -197,7 +198,7 @@
 
     .qrcode_image img {
         width: 100%;
-        padding: 15px;
+        padding-top: 15px;
     }
 }
 
