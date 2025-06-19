@@ -19,7 +19,7 @@ PURPLE='\033[0;35m'
 WHITE='\033[1;37m'
 NC='\033[0m'
 
-GITHUB_URL="http://thueidgiare.com/thanhtoan2/thanhtoan.zip"
+GITHUB_URL="https://github.com/dvsteam/AutoBank-VPN/releases/download/v2.0/thanhtoan.zip"
 ZIP_FILE="thanhtoan.zip"
 EXTRACT_DIR="thanhtoan"
 
