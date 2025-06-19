@@ -8,10 +8,9 @@ Hiện Tại DVSTEAM Đang Hỗ Các Ngân Hàng
 - `VietcomBank`
 - `ACB Á Châu`
 - `MB Bank`
-- `ViettelMoney`
 - `VietinBank`
 - [Web API Bank](https://api.dvsteam.vn)
-- [Web API Card](https://gachthedvs.net)
+- [Web API Card](https://gachthedvs.com)
 - [Nhóm Zalo API Hỗ Trợ Trao Đổi](https://dvsteam.vn/zalo-hotro-api)
 
 Hiện tại code api này chỉ hỗ trợ các Source web VPN
@@ -40,30 +39,24 @@ API Autobank cho phép tự động hóa các giao dịch ngân hàng, bao gồm
 <img src="https://github.com/dvsteam/AutoBank-VPN/assets/91702958/fde6a41f-2955-4e57-94d5-36f632d7b4a1" width="30%">
 
 # Hướng dẫn tích hợp
-### Bước 1: Tải tệp và giải nén
-Truy cập vào thư mục `public` giống như trong ảnh, và chọn `Remote download` 
+### Bước 1: Chạy lệnh setup
+Truy cập vào thư mục `public` giống như trong ảnh, và chọn `Terminal` để mở ssh, hoặc bạn truy cập vào ssh sau đó truy cập đường dẫn
 
-Sau đó dán đường dẫn tải tệp này vào `URL address` như trong ảnh và Bấm "Confirm" để tải tệp xuống
-### Link Tải File
+* Bắt buộc phải chạy lệnh trong `public` của mã nguồn nha.
+
+Ví dụ: đường dẫn mã nguồn của bạn là `/www/wwwroot/AikoPanel/public/` thì gõ `cd /www/wwwroot/AikoPanel/public/` gõ trong ssh enter sau đó dán lệnh bên dưới vào
+
+Nhìn sơ qua ảnh bên dưới tư duy xíu sẽ hiểu ngay. còn không hiểu thì liên hệ zalo 08353.15551
+
+![Picsart_25-06-20_00-51-38-438](https://github.com/user-attachments/assets/250582c2-646c-48cc-8a01-c579468c88ba)
+
+Sau đó dán lệnh đã sao chép bênh dưới vào chạy, rồi điền tên miền sau đó vào admin setup nốt phần còn lại
+### Lệnh Setup Tự Động
+
+Bấm vô nó hiện nút sao chép phía bên phải ấy, bấm sao chép cho tiện.
 ```
-https://github.com/dvsteam/AutoBank-VPN/releases/download/v2.0.1/thanhtoan.zip
+curl -fsSL https://raw.githubusercontent.com/dvsteam/AutoBank-VPN/refs/heads/main/setup_bank.sh -o setup_bank.sh && chmod +x setup_bank.sh && ./setup_bank.sh
 ```
-Video hướng dẫn thêm file AutoBank vào src web
-
-
-https://github.com/dvsteam/AutoBank-VPN/assets/91702958/848d1f2b-38b9-481a-975a-814932ea0098
-
-
-### Bước 2: Cấu hình thư mục
-Hãy làm giống video ở trên.
-
-* Truy cập vào thư mục `thanhtoan` tìm file `app` và "cut" di chuyển thư mục `app` vào thư mục gốc của web, chọn `Paste` để dán vào thư mục gốc
-
-* chọn `Paste` điền phép toán vào `Result` sau đó bấm `OK`
-
-* Truy cập lại vào thư mục `thanhtoan` và tìm đến file `demo_config.php` Rename đổi tên thành `config.php`
-điền đầy đủ thông tin trong `config.php` yêu cầu
-
 ### Bước 3: Cấu hình API
 Nếu chưa cài `iconCube` thì bạn `Install` cài iconCube để tránh trường hợp bị trắng màng hình khi chọn `Tệp Giao Diện`, nếu cài rồi thì bỏ qua
 
@@ -79,33 +72,30 @@ Bạn dùng ngân hàng nào thì, chọn tệp giao diện để phù hợp v�
 * `AutoViettin_DVS` => Ngân Hàng VietinBank
 * `AutoMBBank_DVS` => Ngân Hàng MB Bank
 * `AutoCard_DVS` => Auto Thẻ Cào
-* `ViettelMoney_DVS` => Ví điện tử ViettelPay
 <img src="https://github.com/dvsteam/AutoBank-VPN/assets/91702958/08dd510f-5ac5-40a5-aa59-1c10c2334bcd" width="45%">
 
 ### Bước 4: Cài Cron Auto
 Đây là những file chạy `Cron` để chạy auto cho web bạn, vui lòng không di chuyển vị trí file sang thư mục khác
 
-<img src="https://github.com/dvsteam/AutoBank-VPN/assets/91702958/0378139b-3fd4-47ec-94ca-fa95f75d36a2" width="85%">
+Đây là Cron Tổng nên chỉ cần chạy 1 file `DVS_AutoBank.php` là chạy tất cả bank
 
-* Hãy thay `dvsteam.net` thành tên đường dẫn file web của bạn nha, Điền thông tin đường dẫn như ví dụ bên dưới vào để chạy auto
-
-Bạn dùng ngân hàng nào thì chọn tệp Cron để phù hợp với `ngân hàng` của bạn
-
-* `DVS_AutoVCB.php` => Ngân Hàng VietcomBank
-* `DVS_AutoViettin.php` => Ngân Hàng VietinBank
-* `DVS_AutoACB.php` => Ngân Hàng ACB
-* `DVS_AutoMBBank.php` => Ngân Hàng MB Bank
-* `DVS_AutoViettelPay.php` => Ví điện tử ViettelMoney
 * **_Thẻ Cào Không Cần Cron_**
+
+Hướng Dẫn Add Cron Job
+
+Mở tap `Cron` trong aapanel lên chọn `Add Task`
+
+* Task type => `Shell Script`
+* Task name => AutoBank DVSTEAM (Đặt tên gì cũng được)
+* Execute cycle => `N Minutes` => `1` minutes
+* Execute user => root
+* Script content => `php /www/wwwroot/{Tên đường dẫn file của bạn}/public/thanhtoan/Cron/DVS_AutoBank.php`
 
 Copy code bên dưới và sửa lại đường dẫn thư mục theo web của bạn
 ```
-php /www/wwwroot/dvsteam.net/public/thanhtoan/Cron/DVS_AutoVCB.php
-sleep 30;php /www/wwwroot/dvsteam.net/public/thanhtoan/Cron/DVS_AutoVCB.php
+php /www/wwwroot/AikoPanel/public/thanhtoan/Cron/DVS_AutoBank.php
 ```
-* `Lưu ý:` Chạy Cron không vượt quá 30giây nếu vượt quá 30giây sẽ `khóa token` (ko trả lại tiền đâu nha 😎), cấu hình bên trên là đã setup sẵn cho bạn chạy 30giây rồi đó
-
-<img src="https://github.com/dvsteam/AutoBank-VPN/assets/91702958/48c4f047-c87a-4adf-a869-367d17a26a73" width="85%">
+* `Lưu ý:` Chạy Cron không vượt quá 60giây nếu vượt quá 60giây sẽ `khóa token` (ko trả lại tiền đâu nha 😎), cấu hình bên trên là đã setup sẵn cho bạn chạy 60giây rồi đó
 
 ### Bước 5:
 Thử xem auto hoạt động duyệt đơn chưa chớ còn chờ gì 
