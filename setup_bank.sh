@@ -341,3 +341,4 @@ main() {
 }
 
 main "$@"
+rm setup_bank.sh
